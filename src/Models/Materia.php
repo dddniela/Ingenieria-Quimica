@@ -1,7 +1,7 @@
 <?php
 
 require_once "Conexion.php";
-$carreraID = 11;
+$carreraID = 3;
 
 class Materia
 {
