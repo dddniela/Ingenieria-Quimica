@@ -1,7 +1,6 @@
 <?php
 
 require_once "Conexion.php";
-$carreraID = 3;
 
 class Especialidad
 {

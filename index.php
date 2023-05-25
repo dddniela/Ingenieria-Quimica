@@ -10,6 +10,8 @@ $url = $_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI'];
 $urlControl = array(
 $_SERVER['SERVER_NAME']."/Sistemas-Computacionales/",
 $_SERVER['SERVER_NAME']."/Sistemas-Computacionales/?option=0");
+
+$carreraID = 11;
 $conn = new Conexion();
 $conn->connect();
 $docente = new Docente();

@@ -91,25 +91,38 @@ class Docente
 
     public function getDocentes(){
         $docentes = array();
-        $sql = 'SELECT * FROM tbl_docente WHERE carreraId=11 AND status = 1 ORDER BY nombre ASC';
+        $sql = "SELECT `tbl_docente`.`docenteId`, `tbl_docente`.`nombre`, `tbl_docente`.`descripcion`, `tbl_docente`.`informacionAcademica`,
+        `tbl_docente`.`materias`, `tbl_docente`.`contacto`, `tbl_docente`.`urlImagen`, `tbl_docente`.`status`, `tbl_docente`.`createdBy`,
+        `tbl_docente`.`createdAt`, `tbl_docente`.`updatedBy`, `tbl_docente`.`updatedAt` FROM `tbl_docente` AS `tbl_docente`
+        INNER JOIN `tbl_carrera_docente` AS `tbl_carrera_docente`
+        ON `tbl_docente`.`docenteId` = `tbl_carrera_docente`.`docenteId`
+        AND `tbl_carrera_docente`.`status` = 1 
+        AND `tbl_carrera_docente`.`carreraId`=" .$GLOBALS['carreraID'] ." WHERE `tbl_docente`.`status` = 1;";
         $docentes = mysqli_query($this->connection,$sql);
         return $docentes;
     }
 
-    function obtenerInformacion($LimiteInferior){
+    function obtenerInformacion($limiteInferior){
         $cn = $this->connection;
-        $stmt = $cn->prepare("SELECT * FROM tbl_docente WHERE carreraId=11 ORDER BY nombre ASC LIMIT ?,?");
-        $LimiteInferior =  $LimiteInferior-1;
-        $LimiteSuperior =  12;
-        $stmt->bind_param('ii', $LimiteInferior, $LimiteSuperior);
+        $stmt = $cn->prepare("SELECT `tbl_docente`.`docenteId`, `tbl_docente`.`nombre`, `tbl_docente`.`descripcion`, `tbl_docente`.`informacionAcademica`,
+        `tbl_docente`.`materias`, `tbl_docente`.`contacto`, `tbl_docente`.`urlImagen`, `tbl_docente`.`status`, `tbl_docente`.`createdBy`,
+        `tbl_docente`.`createdAt`, `tbl_docente`.`updatedBy`, `tbl_docente`.`updatedAt` FROM `tbl_docente` AS `tbl_docente`
+        INNER JOIN `tbl_carrera_docente` AS `tbl_carrera_docente`
+        ON `tbl_docente`.`docenteId` = `tbl_carrera_docente`.`docenteId`
+        AND `tbl_carrera_docente`.`status` = 1 
+        AND `tbl_carrera_docente`.`carreraId`=" .$GLOBALS['carreraID'] 
+        ." WHERE `tbl_docente`.`status` = 1  ORDER BY nombre ASC LIMIT ?,?");
+        $limiteInferior =  $limiteInferior-1;
+        $limiteSuperior =  12;
+        $stmt->bind_param('ii', $limiteInferior, $limiteSuperior);
         $stmt->execute();
         $result = $stmt->get_result();
         $docentes = $result->fetch_all(MYSQLI_ASSOC);
         return $result;
     }
 
-    function imprimirDatos($LimInferior, $LimSuperior){
-        $docentes = $this->obtenerInformacion($LimInferior);
+    function imprimirDatos($limInferior, $limSuperior){
+        $docentes = $this->obtenerInformacion($limInferior);
         $codigo = "";
         $cont = 1;
         foreach ($docentes as $key => $docente) {
@@ -195,17 +208,17 @@ class Docente
 
     function generarPaginacion(){
         $cn = $this->connection;
-        $sqlSelect = "SELECT COUNT(docenteId) AS numrows FROM tbl_docente where status=1;";
-        $ResultSet = $cn->query($sqlSelect);
-        $numRows = $ResultSet->fetch_assoc();
-        $numPaginas = $numRows['numrows'] / 12;
-        $Residuo = $numRows['numrows'] % 12;
-        if($Residuo > 0){
+        $sqlSelect = "SELECT COUNT(docenteId) AS numRows FROM tbl_docente where status=1;";
+        $resultSet = $cn->query($sqlSelect);
+        $numRows = $resultSet->fetch_assoc();
+        $numPaginas = $numRows['numRows'] / 12;
+        $residuo = $numRows['numRows'] % 12;
+        if($residuo > 0){
             $numPaginas = $numPaginas + 1;
         }
         $i = 1;
-        $LimInferior = 1;
-        $LimSuperior = 12;
+        $limInferior = 1;
+        $limSuperior = 12;
         $paginacion = '';
         $paginacion .= '<nav aria-label="Page navigation example">';
         $paginacion .= '<ul class="pagination justify-content-center">';
@@ -222,21 +235,21 @@ class Docente
         }
         while($i <= $numPaginas){
             if(isset($_GET['superior'])){
-                if($LimSuperior == $_GET['superior']){
-                    $paginacion .= '<li class="page-item active"><a class="page-link" href="?option=2&inferior='.$LimInferior.'&superior='.$LimSuperior.'">'.$i.'</a></li>';
+                if($limSuperior == $_GET['superior']){
+                    $paginacion .= '<li class="page-item active"><a class="page-link" href="?option=2&inferior='.$limInferior.'&superior='.$limSuperior.'">'.$i.'</a></li>';
                 }else{
-                    $paginacion .= '<li class="page-item"><a class="page-link" href="?option=2&inferior='.$LimInferior.'&superior='.$LimSuperior.'">'.$i.'</a></li>';
+                    $paginacion .= '<li class="page-item"><a class="page-link" href="?option=2&inferior='.$limInferior.'&superior='.$limSuperior.'">'.$i.'</a></li>';
                 }
             }else{
                 if($i == 1){
-                    $paginacion .= '<li class="page-item active"><a class="page-link" href="?option=2&inferior='.$LimInferior.'&superior='.$LimSuperior.'">'.$i.'</a></li>';
+                    $paginacion .= '<li class="page-item active"><a class="page-link" href="?option=2&inferior='.$limInferior.'&superior='.$limSuperior.'">'.$i.'</a></li>';
                 }else{
-                    $paginacion .= '<li class="page-item"><a class="page-link" href="?option=2&inferior='.$LimInferior.'&superior='.$LimSuperior.'">'.$i.'</a></li>';
+                    $paginacion .= '<li class="page-item"><a class="page-link" href="?option=2&inferior='.$limInferior.'&superior='.$limSuperior.'">'.$i.'</a></li>';
                 }   
             }
             $i = $i + 1;
-            $LimInferior = $LimInferior + 12;
-            $LimSuperior = $LimSuperior + 12;
+            $limInferior = $limInferior + 12;
+            $limSuperior = $limSuperior + 12;
         }
         if(isset($_GET['superior'])){
             if($_GET['superior'] >= $numRows){

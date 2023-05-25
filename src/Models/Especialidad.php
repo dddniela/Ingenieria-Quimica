@@ -1,7 +1,6 @@
 <?php
 
 require_once "Conexion.php";
-$carreraID = 3;
 
 class Especialidad
 {
@@ -128,7 +127,7 @@ class Especialidad
 
     function imprimirEspecialidad($especialidadId){
         $cn = $this->connection;
-        $sqlQ = "SELECT * FROM tbl_materia WHERE carreraId=" .$GLOBALS['carreraID'] ." AND especialidadId=$especialidadId  AND status = 1;;";
+        $sqlQ = "SELECT * FROM tbl_materia WHERE carreraId=" .$GLOBALS['carreraID'] ." AND especialidadId=$especialidadId AND status = 1;;";
         $data = $cn->query($sqlQ);
     
         $tabla = "";
