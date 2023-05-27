@@ -1,7 +1,7 @@
 <!-- Portada -->
 <div class="row g-0">
     <div class="position-relative w-100 overflow-hidden">
-        <img class="w-100 img-fluid" src="img/IMG_1891.webp" alt="">
+        <img class="w-100 img-fluid" src="img/IBQ-IQ/P20.png" alt="">
         <div class="position-absolute top-50 start-50 translate-middle w-100">
             <div class="d-flex flex-column justify-content-center align-items-center text-center">
                 <h1 class="fw-bold text-warning">Perfil de Egreso</h1>
@@ -45,10 +45,11 @@
                         <div class="sectionSeparator"></div>
                     </div>
                     <div class="col-12" style="text-align: center;">
-                        <p style="text-align: justify;"> Formar profesionistas líderes con visión
-                            estratégica y amplio sentido ético; capaz de diseñar, desarrollar, implementar y administrar tecnología
-                            computacional para aportar soluciones innovadoras en beneficio de la sociedad; en un contexto global,
-                            multidisciplinario y sostenible.
+                        <p style="text-align: justify;"> Formar profesionistas en Ingeniería Química competentes para investigar, 
+                        generar y aplicar el conocimiento científico y tecnológico, que le permita identificar y resolver problemas 
+                        de diseño, operación, adaptación, optimización y administración en industrias químicas y de servicios,
+                        con calidad, seguridad, economía, usando racional y eficientemente los recursos naturales, conservando el medio 
+                        ambiente, cumpliendo el código ético de la profesión y participando en el bienestar de la sociedad.
                         </p>
                     </div>
                 </div>
@@ -131,78 +132,84 @@
                 <div class="row g-0">
                     <div class="col-lg-4 col-sm-6 text-center p-3">
                         <div class="area shadow-sm p-4">
-                            <img class="imagenArea items-center" src="img/iconos/ingenieria.PNG" alt="">
-                            <p class="textoArea">Implementa aplicaciones computacionales para solucionar problemas de
-                                diversos contextos,
-                                integrando diferentes tecnologías, plataformas o dispositivos.</p>
+                            <img class="imagenArea items-center" src="img/iconos/OBJ1.png" alt="">
+                            <p class="textoArea">Diseña, selecciona, opera, optimiza y controla procesos en industrias químicas 
+                                y de servicios con base en el desarrollo tecnológico de acuerdo a las normas de higiene y seguridad, 
+                                de manera sustentable.</p>
                         </div>
                     </div>
 
                     <div class="col-lg-4 col-sm-6 text-center p-3">
                         <div class="area shadow-sm p-4">
-                            <img class="imagenArea items-center" src="img/topicos/ing-software-icono.PNG" alt="">
-                            <p class="textoArea">Diseña, desarrolla y aplica modelos computacionales para solucionar
-                                problemas, mediante
-                                la selección y uso de herramientas matemáticas.</p>
+                            <img class="imagenArea items-center" src="img/iconos/OBJ2.png" alt="">
+                            <p class="textoArea">Colabora en equipos interdisciplinarios y multiculturales en su 
+                                ámbito laboral, con actitud innovadora, espíritu crítico, disposición al cambio y 
+                                apego a la ética profesional.</p>
                         </div>
                     </div>
 
                     <div class="col-lg-4 col-sm-6 text-center p-3">
                         <div class="area shadow-sm p-4">
-                            <img class="imagenArea items-center" src="img/iconos/redes.PNG" alt="">
-                            <p class="textoArea">Diseña, configura y administra redes de computadoras para crear soluciones de
-                                conectividad en la organización, aplicando las normas y estándares vigentes.
+                            <img class="imagenArea items-center" src="img/iconos/OBJ3.png" alt="">
+                            <p class="textoArea"> Planea e implementa sistemas de gestión de calidad, ambiental e higiene 
+                                y seguridad en los diferentes sectores, conforme a las normas nacionales e internacionales.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-sm-6 text-center p-3">
+                        <div class="area shadow-sm p-4">
+                            <img class="imagenArea items-center" src="img/iconos/OBJ4.png" alt="">
+                            <p class="textoArea">Utiliza las tecnologías de la información y comunicación como herramientas 
+                                en la construcción de soluciones a problemas de ingeniería y difundir el conocimiento científico 
+                                y tecnológico.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-sm-6 text-center p-3">
+                        <div class="area shadow-sm p-4">
+                            <img class="imagenArea items-center" src="img/iconos/OBJ5.png" alt="">
+                            <p class="textoArea">Realiza innovación y adaptación de tecnología en procesos 
+                                aplicando la metodología científica, con respeto a la propiedad intelectual.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-sm-6 text-center p-3">
+                        <div class="area shadow-sm p-4">
+                            <img class="imagenArea items-center" src="img/iconos/OBJ6.png" alt="">
+                            <p class="textoArea">Utiliza un segundo idioma en su ámbito laboral según los requerimientos del entorno.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-sm-6 text-center p-3">
+                        <div class="area shadow-sm p-4">
+                            <img class="imagenArea items-center" src="img/iconos/OBJ7.png" alt="">
+                            <p class="textoArea">Se comunica en forma oral y escrita en el ámbito laboral de manera expedita y concisa.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-sm-6 text-center p-3">
+                        <div class="area shadow-sm p-4">
+                            <img class="imagenArea items-center" src="img/iconos/OBJ8.png" alt="">
+                            <p class="textoArea">Demuestra actitud creativa, emprendedora y de liderazgo para impulsar y crear empresas 
+                                que contribuyan al progreso nacional.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-sm-6 text-center p-3">
+                        <div class="area shadow-sm p-4">
+                            <img class="imagenArea items-center" src="img/iconos/OBJ9.png" alt="">
+                            <p class="textoArea">Administrar recursos humanos, materiales y financieros para los sectores público y privado, 
+                                acorde a modelos administrativos vigentes.
                             </p>
                         </div>
                     </div>
 
                     <div class="col-lg-4 col-sm-6 text-center p-3">
                         <div class="area shadow-sm p-4">
-                            <img class="imagenArea items-center" src="img/topicos/admon-bd-icono.PNG" alt="">
-                            <p class="textoArea">Diseña e implementa interfaces para la implementación y automatización
-                                de sistemas de hardware y
-                                desarrollo del software asociado.</p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-sm-6 text-center p-3">
-                        <div class="area shadow-sm p-4">
-                            <img class="imagenArea items-center" src="img/topicos/programacion-web-icono.PNG" alt="">
-                            <p class="textoArea">Coordina y participa en equipos multidisciplinarios para la aplicación
-                                de soluciones
-                                innovadoras en diferentes contextos del mundo laboral.</p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-sm-6 text-center p-3">
-                        <div class="area shadow-sm p-4">
-                            <img class="imagenArea items-center" src="img/iconos/distribuidas.PNG" alt="">
-                            <p class="textoArea">Diseña, implementa y administra bases de datos optimizando los recursos
-                                disponibles,
-                                bajo las normas de manejo y seguridad de la información.</p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-sm-6 text-center p-3">
-                        <div class="area shadow-sm p-4">
-                            <img class="imagenArea items-center" src="img/iconos/administracion.PNG" alt="">
-                            <p class="textoArea">Desarrolla y administra software para apoyar la productividad y competitividad de
-                                las organizaciones cumpliendo con estándares de calidad.</p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-sm-6 text-center p-3">
-                        <div class="area shadow-sm p-4">
-                            <img class="imagenArea items-center" src="img/iconos/blockchain.PNG" alt="">
-                            <p class="textoArea">Evalúa tecnologías de hardware para soportar aplicaciones de manera efectiva.</p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-sm-6 text-center p-3">
-                        <div class="area shadow-sm p-4">
-                            <img class="imagenArea items-center" src="img/iconos/programacion.PNG" alt="">
-                            <p class="textoArea">Detecta áreas de oportunidad empleando una visión empresarial para crear proyectos
-                                aplicando las Tecnologías de la Información y Comunicación.</p>
+                            <img class="imagenArea items-center" src="img/iconos/OBJ10.png" alt="">
+                            <p class="textoArea">Demuestra actitudes de superación continua para lograr metas personales y profesionales con 
+                                pertinencia y competitividad.
+                            </p>
                         </div>
                     </div>
 
@@ -240,25 +247,25 @@
 
                     <div class="col-md-4 px-2">
                         <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage4">
-                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/IMG_2253.webp" alt="">
+                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/escuela2.png" alt="">
                         </a>
                         <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage5">
-                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/IMG_0456.webp" alt="">
+                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/escuela6.png" alt="">
                         </a>
                         <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage6">
-                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/IMG_0579.webp" alt="">
+                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/escuela7.png" alt="">
                         </a>
                     </div>
 
                     <div class="col-md-4 px-2">
                         <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage7">
-                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/IMG_1110.webp" alt="">
+                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/escuela8.png" alt="">
                         </a>
                         <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage8">
-                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/IMG_1713.webp" alt="">
+                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/escuela13.png" alt="">
                         </a>
                         <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage9">
-                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/IMG_3879.webp" alt="">
+                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/escuela9.png" alt="">
                         </a>
                     </div>
 
@@ -271,10 +278,10 @@
                 <div class="row g-0">
                     <div class="col-12 px-2">
                         <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage10">
-                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/IMG_2102.webp" alt="">
+                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/escuela21.png" alt="">
                         </a>
                         <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage11">
-                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/IMG_3878.webp" alt="">
+                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/escuela22.png" alt="">
                         </a>
                     </div>
 
@@ -319,8 +326,8 @@
 <div tabindex="-1" aria-labelledby="modalImage4" aria-hidden="true" class="modal fade" id="modalImage4">
     <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content bg-transparent text-white text-center">
-            <img src="img/IMG_2253.webp" alt="">
-            <p>Áreas recreativas</p>
+            <img src="img/ITVER/escuela2.png" alt="">
+            <p>Estudiante realizando una practica de laboratorio</p>
         </div>
     </div>
 </div>
@@ -328,8 +335,8 @@
 <div tabindex="-1" aria-labelledby="modalImage5" aria-hidden="true" class="modal fade" id="modalImage5">
     <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content bg-transparent text-white text-center">
-            <img src="img/IMG_0456.webp" alt="">
-            <p>Áreas recreativas</p>
+            <img src="img/ITVER/escuela6.png" alt="">
+            <p>Maquinaria que se localiza dentro del Edificio D</p>
         </div>
     </div>
 </div>
@@ -337,8 +344,8 @@
 <div tabindex="-1" aria-labelledby="modalImage6" aria-hidden="true" class="modal fade" id="modalImage6">
     <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content bg-transparent text-white text-center">
-            <img src="img/IMG_0579.webp" alt="">
-            <p>Edificio E</p>
+            <img src="img/ITVER/escuela7.png" alt="">
+            <p>Maquinaria que se localiza dentro del Edificio D</p>
         </div>
     </div>
 </div>
@@ -346,8 +353,8 @@
 <div tabindex="-1" aria-labelledby="modalImage7" aria-hidden="true" class="modal fade" id="modalImage7">
     <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content bg-transparent text-white text-center">
-            <img src="img/IMG_1110.webp" alt="">
-            <p>Clúster del Laboratorio de Cómputo Intensivo</p>
+            <img src="img/ITVER/escuela8.png" alt="">
+            <p>Laboratorio Ingeniería Fisicoquimica</p>
         </div>
     </div>
 </div>
@@ -355,8 +362,8 @@
 <div tabindex="-1" aria-labelledby="modalImage8" aria-hidden="true" class="modal fade" id="modalImage8">
     <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content bg-transparent text-white text-center">
-            <img src="img/IMG_1713.webp" alt="">
-            <p>Laboratorio de Cómputo Intensivo</p>
+            <img src="img/ITVER/escuela13.png" alt="">
+            <p>Áreas verdes del Instituto Tecnológico de Veracruz</p>
         </div>
     </div>
 </div>
@@ -364,8 +371,8 @@
 <div tabindex="-1" aria-labelledby="modalImage9" aria-hidden="true" class="modal fade" id="modalImage9">
     <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content bg-transparent text-white text-center">
-            <img src="img/IMG_3879.webp" alt="">
-            <p>Laboratorio de cómputo</p>
+            <img src="img/ITVER/escuela9.png" alt="">
+            <p>Pasillo del Edificio F</p>
         </div>
     </div>
 </div>
@@ -373,8 +380,8 @@
 <div tabindex="-1" aria-labelledby="modalImage10" aria-hidden="true" class="modal fade" id="modalImage10">
     <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content bg-transparent text-white text-center">
-            <img src="img/IMG_2102.webp" alt="">
-            <p>Edificio U: Sistemas</p>
+            <img src="img/ITVER/escuela21.png" alt="">
+            <p>Edificio F: Química-Bioquímica</p>
         </div>
     </div>
 </div>
@@ -382,8 +389,8 @@
 <div tabindex="-1" aria-labelledby="modalImage11" aria-hidden="true" class="modal fade" id="modalImage11">
     <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content bg-transparent text-white text-center">
-            <img src="img/IMG_3878.webp" alt="">
-            <p>Laboratorio de cómputo</p>
+            <img src="img/ITVER/escuela22.png" alt="">
+            <p>Maquinaria que se localiza dentro del Edificio D</p>
         </div>
     </div>
 </div>
