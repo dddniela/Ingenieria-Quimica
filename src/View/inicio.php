@@ -10,7 +10,7 @@
 
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="img/IBQ-IQ/P4.png" class="d-block w-100 align-middle" width="100%" height="100%">
+        <img src="img/IBQ-IQ/P45.png" class="d-block w-100 align-middle" width="100%" height="100%">
         <div class="container">
           <div class="carousel-caption d-flex flex-column">
             <h1 class="mainTitle text-center font-bold m-2">Ingeniería Química</h1>
@@ -22,7 +22,7 @@
       </div>
 
       <div class="carousel-item">
-        <img src="img/IBQ-IQ/P13.png" class="d-block w-100 align-middle" width="100%" height="100%">
+        <img src="img/IBQ-IQ/P46.png" class="d-block w-100 align-middle" width="100%" height="100%">
         <div class="container">
           <div class="carousel-caption">
             <h1 class="mainTitle text-center font-bold m-2">Ingeniería Química</h1>
@@ -33,7 +33,7 @@
       </div>
 
       <div class="carousel-item">
-        <img src="img/IBQ-IQ/P19.png" class="d-block w-100 align-middle" width="100%" height="100%">
+        <img src="img/IBQ-IQ/P39.png" class="d-block w-100 align-middle" width="100%" height="100%">
         <div class="container">
           <div class="carousel-caption">
             <h1 class="mainTitle text-center font-bold m-2">Ingeniería Química</h1>
@@ -61,7 +61,7 @@
   <div class="row px-2 g-0">
     <div class="col-lg-6 col-12 p-2 shadow-sm">
       <div class="d-flex justify-content-center align-items-center w-100 h-100">
-        <img class="img-fluid rounded" src="img/IBQ-IQ/IMG1.png" alt="">
+        <img class="img-fluid rounded" src="img/IBQ-IQ/IMG2.png" alt="">
       </div>
     </div>
 
