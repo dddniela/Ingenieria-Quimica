@@ -68,26 +68,28 @@ class Comunidad
         return $this->queHacemos;
     }
 
-    public function getComunidades(){
+    public function getComunidades()
+    {
         $cn = $this->connection;
-        $sql = 'SELECT * FROM tbl_comunidad WHERE carreraId=' .$GLOBALS['carreraID'] .' AND status = 1 ORDER BY nombre ASC';
-        $comunidades = mysqli_query($this->connection,$sql);
+        $sql = 'SELECT * FROM tbl_comunidad WHERE carreraId=' . $GLOBALS['carreraID'] . ' AND status = 1 ORDER BY nombre ASC';
+        $comunidades = mysqli_query($this->connection, $sql);
         return $comunidades;
     }
 
-    function imprimirDatos(){
+    function imprimirDatos()
+    {
         $ResultSet = $this->getComunidades();
         $tabla = "";
-            
-        if($ResultSet->num_rows > 0){
-            while($row = $ResultSet->fetch_assoc()){
+
+        if ($ResultSet->num_rows > 0) {
+            while ($row = $ResultSet->fetch_assoc()) {
                 $comunidadId = $row['comunidadId'];
                 $nombre = $row['nombre'];
                 $logo = $row['logo'];
                 $quienesSomos = $row['quienesSomos'];
                 $queHacemos = $row['queHacemos'];
                 $fotosComunidad = $row['fotosComunidad'];
-                $array = explode ( ',', $fotosComunidad );
+                $array = explode(',', $fotosComunidad);
                 $num = count($array);
                 $tabla .=  "<div class='col-lg-4 col-sm-6 text-center p-3'>
                                 <div class='area shadow-sm p-4 rounded-3'>
@@ -98,11 +100,11 @@ class Comunidad
                                         <h3 class='tituloAreaDocente text-center font-bold text-xl'>$nombre</h3>
                                     </div>
                                     <div class='d-flex flex-row justify-content-center'>
-                                        <button type='button' class='btn btn-warning font-bold' data-bs-toggle='modal' data-bs-target='#ModalComunidad".$comunidadId."'>Ver mas</button>
+                                        <button type='button' class='btn btn-warning font-bold' data-bs-toggle='modal' data-bs-target='#ModalComunidad" . $comunidadId . "'>Ver mas</button>
                                     </div>
                                 </div>
-                            </div>";                        
-                
+                            </div>";
+
                 $tabla .=   "<div class='modal fade' id='ModalComunidad$comunidadId' tabindex='-1' aria-labelledby='exampleModalLabel' aria-hidden='true'>
                                 <div class='modal-dialog modal-lg'>
                                     <div class='modal-content'>
@@ -143,10 +145,10 @@ class Comunidad
                                                     $queHacemos
                                                 </div> 
                                             </div>";
-                        if(count($array) != 1 ){
-                                $foto1 = count($array) != 0 ? $array[0] : 0;
-                                $foto2 = count($array) != 0 ? $array[1] : 0;
-                                $tabla .=  "<div class='d-flex flex-row justify-content-start m-2' style='text-align: justify;'>
+                if (count($array) != 1) {
+                    $foto1 = count($array) != 0 ? $array[0] : 0;
+                    $foto2 = count($array) != 0 ? $array[1] : 0;
+                    $tabla .=  "<div class='d-flex flex-row justify-content-start m-2' style='text-align: justify;'>
                                                 <div class='col-12'>
                                                     <div class='row'>
                                                         <div class='col-lg-6'>
@@ -157,9 +159,9 @@ class Comunidad
                                                         </div>
                                                     </div> 
                                                 </div> 
-                                            </div>";       
-                        }                                     
-                            $tabla .=   "</div>
+                                            </div>";
+                }
+                $tabla .=   "</div>
                                     </div>
                                 </div>
                             </div>";
