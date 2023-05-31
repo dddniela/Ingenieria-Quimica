@@ -71,8 +71,8 @@
               en la destreza de aplicarlos en la práctica”<br />
             </h6>
             <p class="" style="text-align: justify">
-              Carmen Yolanda Hernández Cardona, Jefa del Departamento de Ingeniería Química-Bioquímica de las carrera Ingeniería Química
-              e Ingeniería Bioquímica del Tecnológico de Veracruz; Ingeniero industrial en quimica, En el cargo
+              Carmen Yolanda Hernández Cardona, Jefa del Departamento de Ingeniería Química-Bioquímica de las carreras de Ingeniería Química
+              e Ingeniería Bioquímica del Tecnológico de Veracruz; Ingeniero industrial en quimica. En el cargo
               de jefatura del departamento, su función principal, es coordinar la aplicación de programas de estudio
               relacionados con las áreas de química y bioquímica de las carreras que se imparten en el instituto
               tecnológico, así mismo el desarrollo de proyectos de investigación y vinculación con el sector productivo,
@@ -113,15 +113,14 @@
             <h2 class="sectionTitle text-center font-bold m-3">Francisca Patricia Díaz García</h2>
             <div class="sectionSeparator"></div>
             <h4 class="text-center fw-bold fs-3">
-            Coordinadora de Ingeniería en Sistemas Computacionales
-            </h4>
+            Coordinadora de Ingeniería Química y Bioquímica
           </div>
           <div class="col-12 px-4" style="text-align: center;">
             <p class="" style="text-align: justify">
-              Berenice Lagunes Padilla, coordinadora de la carrera ingeniería en
-              Sistemas Computacionales en el Tecnológico de Veracruz; licenciada
-              en Ciencias de la Educación, con maestría en Educación por
-              competencias. En el cargo de coordinación, su función principal,
+              Francisca Patricia Díaz García, coordinadora de la carrera ingeniería Química y Bioquímica
+              en el Tecnológico de Veracruz; licenciada en Ciencias de la Educación, 
+              con maestría en Educación por competencias. 
+              En el cargo de coordinación, su función principal,
               es la orientación académica de los alumnos estudiantes de dicha
               licenciatura a lo largo de su estancia en la Institución, para un
               correcto avance y aprovechamiento de su programa de estudios. Así

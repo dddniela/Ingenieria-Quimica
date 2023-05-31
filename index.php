@@ -11,7 +11,7 @@ $urlControl = array(
 $_SERVER['SERVER_NAME']."/Sistemas-Computacionales/",
 $_SERVER['SERVER_NAME']."/Sistemas-Computacionales/?option=0");
 
-$carreraID = 11;
+$carreraID = 3;
 $conn = new Conexion();
 $conn->connect();
 $docente = new Docente();
