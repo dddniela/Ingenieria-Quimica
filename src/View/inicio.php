@@ -228,14 +228,14 @@
       <div class="galleryContainer bg-light">
         <div class="row g-0">
           <div class="col-4 px-2">
-            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes-IQ/reynaArredondoToledo.webp"
+            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes-IQ/olayaCastellanosOnorio.webp"
               alt="">
             <img class="img-fluid w-100 shadow-1-strong rounded m-2"
               src="img/Docentes-IQ/benignoOrtizMuniz.webp" alt="">
           </div>
 
           <div class="col-4 px-2">
-            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes-IQ/genovevaDominguezMartinez.webp"
+            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes-IQ/harumiCastilloCarrasco.webp"
               alt="">
             <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes-IQ/pabloGonzalezCervantes.webp" alt="">
           </div>
@@ -243,7 +243,7 @@
           <div class="col-4 px-2">
             <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes-IQ/aniluMirandaMedina.webp"
               alt="">
-            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes-IQ/oscarGonzalezRios.webp"
+            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes-IQ/jeronimoValenciaPerez.webp"
               alt="">
           </div>
 
