@@ -21,7 +21,7 @@
 
   <div class="col-lg-6 col-12 p-2 shadow-sm">
     <div class="d-flex justify-content-center align-items-center w-100 h-100">
-        <img class="img-fluid rounded" src="img/ITVER/escuela21.png" alt="">
+        <img class="img-fluid rounded" src="img/ITVER/escuela21.webp" alt="">
       </div>
     </div>
 
@@ -66,10 +66,6 @@
             </h4>
           </div>
           <div class="col-12" style="text-align: center;">
-            <h6 class="text-center fw-bold fs-6">
-              “La inteligencia consiste no solo en el conocimiento, sino también
-              en la destreza de aplicarlos en la práctica”<br />
-            </h6>
             <p class="" style="text-align: justify">
               Carmen Yolanda Hernández Cardona, Jefa del Departamento de Ingeniería Química-Bioquímica de las carreras de Ingeniería Química
               e Ingeniería Bioquímica del Tecnológico de Veracruz; Ingeniero industrial en quimica. En el cargo
@@ -87,7 +83,7 @@
 
     <div class="col-lg-6 col-12 p-2 shadow-sm">
       <div class="d-flex justify-content-center align-items-center w-100 h-100">
-        <img class="img-fluid rounded" src="img/Docentes-IQ/carmenYolanda.png" alt="">
+        <img class="img-fluid rounded" src="img/IBQ-IQ/yolandaHernandezCardona.webp" alt="">
       </div>
     </div>
 
@@ -102,7 +98,7 @@
 
   <div class="col-lg-6 col-12 p-2 shadow-sm">
     <div class="d-flex justify-content-center align-items-center w-100 h-100">
-        <img class="img-fluid rounded" src="img/Docentes/bereniceLagunesPadilla.webp" alt="">
+        <img class="img-fluid rounded" src="img/IBQ-IQ/patriciaDiazGarcia.webp" alt="">
       </div>
     </div>
 
@@ -110,7 +106,7 @@
       <div class="d-flex justify-content-center align-items-center w-100 h-100">
         <div class="row g-0">
           <div class="col-12">
-            <h2 class="sectionTitle text-center font-bold m-3">Francisca Patricia Díaz García</h2>
+            <h2 class="sectionTitle text-center font-bold m-3">Patricia Díaz García</h2>
             <div class="sectionSeparator"></div>
             <h4 class="text-center fw-bold fs-3">
             Coordinadora de Ingeniería Química y Bioquímica

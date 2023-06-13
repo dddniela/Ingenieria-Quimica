@@ -19,18 +19,18 @@
             <div class="galleryContainer bg-light">
                 <div class="row g-0">
                     <div class="col-4 px-2">
-                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/IMG_1335.webp" alt="">
-                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/IMG_1394.webp" alt="">
+                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/IBQ-IQ/IQ24.png" alt="">
+                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/IBQ-IQ/IQ21.png" alt="">
                     </div>
 
                     <div class="col-4 px-2">
-                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/IMG_1407.webp" alt="">
-                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/IMG_1337.webp" alt="">
+                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/IBQ-IQ/IQ22.png" alt="">
+                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/IBQ-IQ/IQ19.png" alt="">
                     </div>
 
                     <div class="col-4 px-2">
-                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/IMG_1363.webp" alt="">
-                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/IMG_1380.webp" alt="">
+                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/IBQ-IQ/IQ23.png" alt="">
+                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/IBQ-IQ/IQ16.png" alt="">
                     </div>
 
                 </div>
