@@ -1,7 +1,7 @@
 <!-- Portada -->
 <div class="row g-0">
     <div class="position-relative w-100 overflow-hidden">
-        <img class="w-100 img-fluid" src="img/IBQ-IQ/P20.png" alt="">
+        <img class="w-100 img-fluid" src="img/IBQ-IQ/P20.webp" alt="">
         <div class="position-absolute top-50 start-50 translate-middle w-100">
             <div class="d-flex flex-column justify-content-center align-items-center text-center">
                 <h1 class="fw-bold text-warning">Perfil de Egreso</h1>
@@ -19,18 +19,18 @@
             <div class="galleryContainer bg-light">
                 <div class="row g-0">
                     <div class="col-4 px-2">
-                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/IBQ-IQ/IQ24.png" alt="">
-                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/IBQ-IQ/IQ21.png" alt="">
+                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Alumnos/grupal1.webp" alt="">
+                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Alumnos/monse.webp" alt="">
                     </div>
 
                     <div class="col-4 px-2">
-                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/IBQ-IQ/IQ22.png" alt="">
-                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/IBQ-IQ/IQ19.png" alt="">
+                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Alumnos/monseAmiga1.webp" alt="">
+                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Alumnos/yohan.webp" alt="">
                     </div>
 
                     <div class="col-4 px-2">
-                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/IBQ-IQ/IQ23.png" alt="">
-                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/IBQ-IQ/IQ16.png" alt="">
+                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Alumnos/grupal2.webp" alt="">
+                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Alumnos/monseAmiga2.webp" alt="">
                     </div>
 
                 </div>
@@ -278,7 +278,7 @@
                 <div class="row g-0">
                     <div class="col-12 px-2">
                         <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage10">
-                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/escuela21.png" alt="">
+                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/escuela21.webp" alt="">
                         </a>
                         <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage11">
                             <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/escuela22.png" alt="">

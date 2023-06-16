@@ -1,7 +1,7 @@
 <!-- Portada -->
 <div class="row g-0">
   <div class="position-relative w-100 overflow-hidden">
-    <img class="w-100 img-fluid" src="img/IBQ-IQ/P37.png" alt="" />
+    <img class="w-100 img-fluid" src="img/IBQ-IQ/P37.webp" alt="" />
     <div class="position-absolute top-50 start-50 translate-middle w-100">
       <div class="d-flex flex-column justify-content-center align-items-center text-center">
         <h1 class="fw-bold text-warning">Conócenos</h1>
@@ -33,14 +33,13 @@
             <div class="sectionSeparator"></div>
           </div>
           <div class="col-12" style="text-align: center;">
-            <p style="text-align: justify;"> La carrera de ingeniería en sistemas computacionales pertenece al
-              departamento de sistemas y computación, el objetivo principal del
-              departamento es poner al alcance de los estudiantes diferentes
-              laboratorios de cómputo para el desarrollo de sus materias
-              prácticas y la orientación en los diversos trámites requeridos a
-              lo largo de su plan de estudios, como pueden ser la liberación de
-              créditos complementarios, servicio social, residencias
-              profesionales.
+            <p style="text-align: justify;">
+            Los programas educativos de Ingeniería Química, Ingeniería Bioquímica y Posgrados de la UNIDA 
+            (Unidad de Investigación y Desarrollo de Alimentos) pertenecen al departamento de Ingeniería Química 
+            y Bioquímica y su objetivo principal es el control de las actividades docentes de los programas de 
+            estudio, la vinculación con el sector productivo para la contribución de la formación profesional 
+            del estudiante, así como propiciar actividades científicas con la investigación documental 
+            y de campo.
             </p>
           </div>
         </div>
@@ -66,15 +65,16 @@
             </h4>
           </div>
           <div class="col-12" style="text-align: center;">
+           <h6 class="text-center fw-bold fs-6">
+            “Lo que se realiza con pasión y perseverancia, 
+            los resultados positivos son inherentes”<br />
+            </h6>
             <p class="" style="text-align: justify">
-              Carmen Yolanda Hernández Cardona, Jefa del Departamento de Ingeniería Química-Bioquímica de las carreras de Ingeniería Química
-              e Ingeniería Bioquímica del Tecnológico de Veracruz; Ingeniero industrial en quimica. En el cargo
-              de jefatura del departamento, su función principal, es coordinar la aplicación de programas de estudio
-              relacionados con las áreas de química y bioquímica de las carreras que se imparten en el instituto
-              tecnológico, así mismo el desarrollo de proyectos de investigación y vinculación con el sector productivo,
-              derivados de los programas mencionados, proponiendo objetivos, metas y acciones; verificar que las
-              actividades de las áreas se realicen de acuerdo con las normas, lineamientos y procedimientos establecidos
-              con calidad y espíritu de servicio.
+            Carmen Yolanda Hernández Cardona; Ingeniera Industrial en Química y Maestra en Ciencias en 
+            Bioingeniería, como jefa del departamento tiene la función de coordinar la aplicación de los 
+            programas de estudio de Ingeniería Química, Ingeniería Bioquímica y posgrados relacionados que 
+            se imparten en el Instituto Tecnológico, así como el desarrollo de proyectos de investigación y 
+            vinculación con el sector productivo derivados de los programas mencionados. 
             </p>
           </div>
         </div>
@@ -106,25 +106,19 @@
       <div class="d-flex justify-content-center align-items-center w-100 h-100">
         <div class="row g-0">
           <div class="col-12">
-            <h2 class="sectionTitle text-center font-bold m-3">Patricia Díaz García</h2>
+            <h2 class="sectionTitle text-center font-bold m-3">Francisca Patricia Díaz García</h2>
             <div class="sectionSeparator"></div>
             <h4 class="text-center fw-bold fs-3">
             Coordinadora de Ingeniería Química y Bioquímica
           </div>
           <div class="col-12 px-4" style="text-align: center;">
             <p class="" style="text-align: justify">
-              Francisca Patricia Díaz García, coordinadora de la carrera ingeniería Química y Bioquímica
-              en el Tecnológico de Veracruz; licenciada en Ciencias de la Educación, 
-              con maestría en Educación por competencias. 
-              En el cargo de coordinación, su función principal,
-              es la orientación académica de los alumnos estudiantes de dicha
-              licenciatura a lo largo de su estancia en la Institución, para un
-              correcto avance y aprovechamiento de su programa de estudios. Así
-              mismo se realizan diferentes funciones en la coordinación, como lo
-              son: consulta y cambio de NIP, realizar la estructura académica
-              con base en las estadísticas de la población inscrita y las
-              necesidades de grupos que así se generen dentro de los periodos
-              semestrales así como de cursos de verano.
+            Francisca Patricia Díaz García; Licenciada en Psicología Educativa, como coordinadora tiene 
+            como función principal dar seguimiento al estudiante durante su estancia en la institución para 
+            ofrecer la orientación necesaria para un correcto avance y aprovechamiento de su plan de estudios.
+            Así mismo se realizan diferentes funciones tales como definir semestralmente la apertura del número 
+            de grupos por asignatura con base a la demanda estudiantil, consulta y cambio de NIP, análisis de 
+            casos extraordinarios, entre otros.
             </p>
           </div>
         </div>

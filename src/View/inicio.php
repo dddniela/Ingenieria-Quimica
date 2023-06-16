@@ -6,15 +6,16 @@
         aria-label="Slide 1"></button>
       <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
       <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
     </div>
 
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="img/IBQ-IQ/P45.png" class="d-block w-100 align-middle" width="100%" height="100%">
+        <img src="img/IBQ-IQ/P49.webp" class="d-block w-100 align-middle" width="100%" height="100%">
         <div class="container">
           <div class="carousel-caption d-flex flex-column">
             <h1 class="mainTitle text-center font-bold m-2">Ingeniería Química</h1>
-            <h2 class="mainSubtitle text-center font-bold">Desarrolla nuevos horizontes</h1>
+            <h2 class="mainSubtitle text-center font-bold">Reconocimiento con acreditaciones internacionales</h1>
               <p><a class="mainButton btn font-bold d-none d-md-inline-flex" href="?option=3">Explorar</a>
               </p>
           </div>
@@ -22,23 +23,34 @@
       </div>
 
       <div class="carousel-item">
-        <img src="img/IBQ-IQ/P46.png" class="d-block w-100 align-middle" width="100%" height="100%">
+        <img src="img/IBQ-IQ/P50.webp" class="d-block w-100 align-middle" width="100%" height="100%">
         <div class="container">
           <div class="carousel-caption">
             <h1 class="mainTitle text-center font-bold m-2">Ingeniería Química</h1>
-            <h2 class="mainSubtitle text-center font-bold">Aprende nuevas tecnologías</h1>
+            <h2 class="mainSubtitle text-center font-bold">Participa en la tecnología e innovación</h1>
               <p><a class="mainButton btn font-bold d-none d-md-inline-flex" href="?option=1">Explorar</a></p>
           </div>
         </div>
       </div>
 
       <div class="carousel-item">
-        <img src="img/IBQ-IQ/P39.png" class="d-block w-100 align-middle" width="100%" height="100%">
+        <img src="img/IBQ-IQ/P39.webp" class="d-block w-100 align-middle" width="100%" height="100%">
         <div class="container">
           <div class="carousel-caption">
             <h1 class="mainTitle text-center font-bold m-2">Ingeniería Química</h1>
-            <h2 class="mainSubtitle text-center font-bold d-none d-md-inline-flex">Colabora con la comunidad</h1>
+            <h2 class="mainSubtitle text-center font-bold d-none d-md-inline-flex">Impacto positivo para la sociedad</h1>
             <p><a class="mainButton btn font-bold d-none d-md-inline-flex" href="?option=5">Explorar</a></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <img src="img/IBQ-IQ/P51.webp" class="d-block w-100 align-middle" width="100%" height="100%">
+        <div class="container">
+          <div class="carousel-caption">
+            <h1 class="mainTitle text-center font-bold m-2">Ingeniería Química</h1>
+            <h2 class="mainSubtitle text-center font-bold">Cumplimiento de normas nacionales e internacionales</h1>
+              <p><a class="mainButton btn font-bold d-none d-md-inline-flex" href="?option=1">Explorar</a></p>
           </div>
         </div>
       </div>
@@ -73,13 +85,13 @@
             <div class="sectionSeparator"></div>
           </div>
           <div class="col-12" style="text-align: center;">
-            <p style="text-align: justify;">La Ingeniería Química es una disciplina versátil y en constante 
-            demanda en diversos sectores industriales. Su plan de estudios está diseñado para proporcionar una base sólida en los fundamentos 
-             de la química, la termodinámica, los procesos químicos y las operaciones unitarias. El instituto 
-             cuenta con laboratorios y equipos que te permitirán adquirir experiencia práctica y desarrollar 
-             habilidades técnicas necesarias en el campo de la Ingeniería Química. A través de proyectos y 
-             prácticas profesionales, tendrás la oportunidad de aplicar tus conocimientos en situaciones reales 
-             y fortalecer tu perfil profesional.
+            <p style="text-align: justify;">
+            La Ingeniería Química permite al estudiante desarrollar habilidades técnicas e interpersonales, 
+            trabajar en diversos campos como materiales, alimentación, gestión ambiental, petroquímica y 
+            farmacéutica, contribuir al desarrollo sostenible mediante el control y prevención de la 
+            contaminación, y tener proyección internacional. Además, ofrece oportunidades laborales a 
+            corto plazo en áreas como procesos, investigación, control de calidad, seguridad ambiental, 
+            comercialización, administración y consultoría.
             </p>
             <a class="btn btn-warning font-bold" href="?option=3" role="button">¡Saber más!</a>
           </div>
@@ -99,14 +111,12 @@
 
     <div class="col-lg-4 col-sm-6 text-center p-3">
       <div class="area shadow-sm p-4">
-        <a href="?option=3.php">
-          <img class="areaImage items-center" src="img/topicos/operacionesUnitarias.png" alt="">
+        <a href="?option=3">
+          <img class="areaImage items-center" src="img/topicos/procesosIndustriales.png" alt="">
         </a>
-        <h3 class="areaTitle text-center font-bold text-xl">Operaciones Unitarias</h3>
+        <h3 class="areaTitle text-center font-bold text-xl">Diseño y Optimización de Procesos Industriales</h3>
         <p class="areaText">
-          Estudiarás los principios y técnicas de las operaciones unitarias, 
-          que incluyen procesos de transferencia de masa, transferencia de calor, 
-          separación de mezclas y operaciones de reacción química.
+        Diseña, desarrolla y optimiza procesos en industrias químicas y de servicios.
         </p>
       </div>
     </div>
@@ -114,26 +124,24 @@
     <div class="col-lg-4 col-sm-6 text-center p-3">
       <div class="area shadow-sm p-4">
         <a href="?option=3">
-          <img class="areaImage items-center" src="img/topicos/procesosQuimicos.png" alt="">
+          <img class="areaImage items-center" src="img/topicos/simulacionProcesos.png" alt="">
         </a>
-        <h3 class="areaTitle text-center font-bold text-xl">Procesos Químicos</h3>
+        <h3 class="areaTitle text-center font-bold text-xl">Simulación de Procesos</h3>
         <p class="areaText">
-        Adquirirás conocimientos sobre los diferentes tipos de procesos químicos, como la destilación, 
-        la cristalización, la evaporación, la extracción, la absorción y la reacción química.
+        Simula procesos químicos mediante el uso de software comercial.
         </p>
       </div>
     </div>
 
     <div class="col-lg-4 col-sm-6 text-center p-3">
       <div class="area shadow-sm p-4">
-        <a href="?option=3.php">
-          <img class="areaImage items-center" src="img/topicos/plantasYEquiposQuimicos.png" alt="">
+        <a href="?option=3">
+          <img class="areaImage items-center" src="img/topicos/sustentabilidadSostenibilidad.png" alt="">
         </a>
-        <h3 class="areaTitle text-center font-bold text-xl">Plantas y Equipos químicos</h3>
+        <h3 class="areaTitle text-center font-bold text-xl">Sustentabilidad y Sostenibilidad.</h3>
         <p class="areaText">
-        Aprenderás a diseñar plantas y equipos químicos, considerando aspectos como la selección de equipos, 
-        el dimensionamiento de reactores, el análisis de flujo de materiales y energía,
-        y la optimización de procesos.
+        Contribuye al cumplimiento de los objetivos del desarrollo sostenible, 
+        con el desarrollo de procesos sostenibles en equilibrio social, ambiental y económico.
         </p>
       </div>
     </div>
@@ -145,7 +153,8 @@
         </a>
         <h3 class="areaTitle text-center font-bold text-xl">Control de Procesos</h3>
         <p class="areaText">
-        Estudiarás los principios del control de procesos y adquirirás habilidades en la selección.
+        Selecciona y aplica la instrumentación para el control de procesos químicos a partir de 
+        los requerimientos óptimos de operación.
         </p>
       </div>
     </div>
@@ -153,11 +162,12 @@
     <div class="col-lg-4 col-sm-6 text-center p-3">
       <div class="area shadow-sm p-4">
         <a href="?option=3">
-          <img class="areaImage items-center" src="img/topicos/sistemasControl.png" alt="">
+          <img class="areaImage items-center" src="img/topicos/riesgosIndustriales.png" alt="">
         </a>
-        <h3 class="areaTitle text-center font-bold text-xl">Sistemas de Control</h3>
+        <h3 class="areaTitle text-center font-bold text-xl">Salud y Riesgo en los Procesos</h3>
         <p class="areaText">
-        Aprenderás sobre el diseño de sistemas de control, la instrumentación y la automatización de procesos químicos.
+        Realiza análisis de Riesgo con el fin de definir las acciones de seguridad funcional y 
+        establecer programas de prevención y control de incidentes en plantas de procesos. 
         </p>
       </div>
     </div>
@@ -165,13 +175,25 @@
     <div class="col-lg-4 col-sm-6 text-center p-3">
       <div class="area shadow-sm p-4">
         <a href="?option=3">
-          <img class="areaImage items-center" src="img/topicos/seguridadIndustrial.png" alt="">
+          <img class="areaImage items-center" src="img/topicos/formulacionProyectos.png" alt="">
         </a>
-        <h3 class="areaTitle text-center font-bold text-xl">Seguridad Industrial y Medio Ambiente</h3>
+        <h3 class="areaTitle text-center font-bold text-xl">Formulación y Evaluación de Proyectos</h3>
         <p class="areaText">
         Obtendrás conocimientos en seguridad industrial y medio ambiente, incluyendo la gestión de riesgos, 
         el manejo adecuado de productos químicos, el cumplimiento de normas de seguridad y las consideraciones 
         ambientales en la industria química.
+        </p>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-sm-6 text-center p-3">
+      <div class="area shadow-sm p-4">
+        <a href="?option=3">
+          <img class="areaImage items-center" src="img/topicos/analisisQuimico.png" alt="">
+        </a>
+        <h3 class="areaTitle text-center font-bold text-xl">Análisis Químico </h3>
+        <p class="areaText">
+        Aprende técnicas de análisis comúnmente utilizados para el control de procesos químicos.
         </p>
       </div>
     </div>
@@ -194,15 +216,9 @@
           </div>
           <div class="col-12 px-4" style="text-align: center;">
             <p class="text-light" style="text-align: justify;">
-            El Departamento de Ingeniería Química y Bioquímica (IQ-IBQ) del Instituto Tecnológico de Veracruz 
-            es un departamento académico dedicado a la formación de profesionales en el ámbito de la ingeniería 
-            química y bioquímica. Su objetivo principal es proporcionar a los estudiantes una sólida base 
-            teórica y práctica en estas disciplinas, así como fomentar la investigación científica y tecnológica 
-            en áreas relacionadas. <br /><br />
-
-            En cuanto a las instalaciones y laboratorios, el departamento cuenta con espacios modernos y bien 
-            equipados para llevar a cabo las prácticas y experimentos necesarios en el proceso de formación de 
-            los estudiantes.
+            El departamento de Ingeniería Química-Bioquímica cuenta con diversos laboratorios en donde los estudiantes 
+            planean y desarrollan experimentos para la obtención de datos que permiten la comprobación de los
+            conceptos teóricos estudiados en los cursos.
             </p>
             <a class="btn btn-warning font-bold" href="?option=4" role="button">¡Explorar!</a>
           </div>
@@ -228,22 +244,22 @@
       <div class="galleryContainer bg-light">
         <div class="row g-0">
           <div class="col-4 px-2">
-            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes-IQ/olayaCastellanosOnorio.webp"
+            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes/olayaCastellanosOnorio.webp"
               alt="">
             <img class="img-fluid w-100 shadow-1-strong rounded m-2"
-              src="img/Docentes-IQ/benignoOrtizMuniz.webp" alt="">
+              src="img/Docentes/benignoOrtizMuniz.webp" alt="">
           </div>
 
           <div class="col-4 px-2">
-            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes-IQ/harumiCastilloCarrasco.webp"
+            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes/harumiCastilloCarrasco.webp"
               alt="">
-            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes-IQ/pabloGonzalezCervantes.webp" alt="">
+            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes/pabloGonzalezCervantes.webp" alt="">
           </div>
 
           <div class="col-4 px-2">
-            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes-IQ/aniluMirandaMedina.webp"
+            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes/aniluMirandaMedina.webp"
               alt="">
-            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes-IQ/jeronimoValenciaPerez.webp"
+            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes/jeronimoValenciaPerez.webp"
               alt="">
           </div>
 
@@ -259,10 +275,11 @@
             <div class="sectionSeparator"></div>
           </div>
           <div class="col-12" style="text-align: center;">
-            <p style="text-align: justify;"> Nuestros profesores son impulsores de cambio, son el elemento esencial de
-              nuestra institución, contamos con profesores y profesoras de diversas disciplinas, quienes demuestran diariamente 
-              su compromiso más allá de las aulas. Son profesionales que tienen la facultad de transformar vidas, de impactar a 
-              las futuras generaciones de estudiantes.
+            <p style="text-align: justify;">
+            Nuestros profesores son impulsores de cambio, contamos con profesores y profesoras de 
+            diversas disciplinas, con estudios de posgrado y una amplia experiencia en el quehacer docente, 
+            quienes demuestran diariamente su compromiso en las aulas. Son profesionales que tienen la facultad 
+            de transformar vidas, de impactar a las futuras generaciones de estudiantes.
             </p>
             <a class="btn btn-warning font-bold" href="?option=2" role="button">¡Conocer docentes!</a>
           </div>
@@ -302,7 +319,7 @@
     <div class="col-lg-4 col-sm-6 text-center p-3">
       <div class="area shadow-sm p-4 rounded-3">
         <a href="?option=5">
-          <img class="img-fluid w-90 shadow-1-strong rounded mb-4  p-1" src="img/comunidad.png" alt="">
+          <img class="img-fluid w-90 shadow-1-strong rounded mb-4  p-1" src="img/comunidadIQ.webp" alt="">
         </a>
         <h3 class="areaTitle text-center font-bold text-xl">Comunidades</h3>
       </div>
