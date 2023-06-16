@@ -241,31 +241,31 @@
                             <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/Venus.webp" alt="">
                         </a>
                         <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage3">
-                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER.webp" alt="">
+                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/escuela10.webp" alt="">
                         </a>
                     </div>
 
                     <div class="col-md-4 px-2">
                         <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage4">
-                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/escuela2.png" alt="">
+                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/escuela1.webp" alt="">
                         </a>
                         <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage5">
-                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/escuela6.png" alt="">
+                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/escuela6.webp" alt="">
                         </a>
                         <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage6">
-                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/escuela7.png" alt="">
+                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/escuela7.webp" alt="">
                         </a>
                     </div>
 
                     <div class="col-md-4 px-2">
                         <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage7">
-                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/escuela8.png" alt="">
+                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/escuela23.webp" alt="">
                         </a>
                         <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage8">
-                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/escuela13.png" alt="">
+                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/escuela13.webp" alt="">
                         </a>
                         <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage9">
-                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/escuela9.png" alt="">
+                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/escuela9.webp" alt="">
                         </a>
                     </div>
 
@@ -281,7 +281,7 @@
                             <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/escuela21.webp" alt="">
                         </a>
                         <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage11">
-                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/escuela22.png" alt="">
+                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/escuela22.webp" alt="">
                         </a>
                     </div>
 
@@ -300,7 +300,7 @@
     <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content bg-transparent text-white text-center">
             <img src="img/IMG_4446.webp" alt="">
-            <p>Logo del Instituto Tecnológico de México Veracruz</p>
+            <p>Logo del Instituto Tecnológico de Veracruz</p>
         </div>
     </div>
 </div>
@@ -317,8 +317,8 @@
 <div tabindex="-1" aria-labelledby="modalImage3" aria-hidden="true" class="modal fade" id="modalImage3">
     <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content bg-transparent text-white text-center">
-            <img src="img/ITVER.webp" alt="">
-            <p>Letras del Instituto Tecnológico de México Veracruz</p>
+            <img src="img/escuela10.webp" alt="">
+            <p>Puente que conecta al Edificio F con el Edificio E</p>
         </div>
     </div>
 </div>
@@ -326,7 +326,7 @@
 <div tabindex="-1" aria-labelledby="modalImage4" aria-hidden="true" class="modal fade" id="modalImage4">
     <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content bg-transparent text-white text-center">
-            <img src="img/ITVER/escuela2.png" alt="">
+            <img src="img/ITVER/escuela1.webp" alt="">
             <p>Estudiante realizando una practica de laboratorio</p>
         </div>
     </div>
@@ -335,7 +335,7 @@
 <div tabindex="-1" aria-labelledby="modalImage5" aria-hidden="true" class="modal fade" id="modalImage5">
     <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content bg-transparent text-white text-center">
-            <img src="img/ITVER/escuela6.png" alt="">
+            <img src="img/ITVER/escuela6.webp" alt="">
             <p>Maquinaria que se localiza dentro del Edificio D</p>
         </div>
     </div>
@@ -344,7 +344,7 @@
 <div tabindex="-1" aria-labelledby="modalImage6" aria-hidden="true" class="modal fade" id="modalImage6">
     <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content bg-transparent text-white text-center">
-            <img src="img/ITVER/escuela7.png" alt="">
+            <img src="img/ITVER/escuela7.webp" alt="">
             <p>Maquinaria que se localiza dentro del Edificio D</p>
         </div>
     </div>
@@ -353,8 +353,8 @@
 <div tabindex="-1" aria-labelledby="modalImage7" aria-hidden="true" class="modal fade" id="modalImage7">
     <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content bg-transparent text-white text-center">
-            <img src="img/ITVER/escuela8.png" alt="">
-            <p>Laboratorio Ingeniería Fisicoquimica</p>
+            <img src="img/ITVER/escuela23.webp" alt="">
+            <p>Laboratorio de Ingeniería Química - Edificio D</p>
         </div>
     </div>
 </div>
@@ -362,7 +362,7 @@
 <div tabindex="-1" aria-labelledby="modalImage8" aria-hidden="true" class="modal fade" id="modalImage8">
     <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content bg-transparent text-white text-center">
-            <img src="img/ITVER/escuela13.png" alt="">
+            <img src="img/ITVER/escuela13.webp" alt="">
             <p>Áreas verdes del Instituto Tecnológico de Veracruz</p>
         </div>
     </div>
@@ -371,7 +371,7 @@
 <div tabindex="-1" aria-labelledby="modalImage9" aria-hidden="true" class="modal fade" id="modalImage9">
     <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content bg-transparent text-white text-center">
-            <img src="img/ITVER/escuela9.png" alt="">
+            <img src="img/ITVER/escuela9.webp" alt="">
             <p>Pasillo del Edificio F</p>
         </div>
     </div>
@@ -380,8 +380,8 @@
 <div tabindex="-1" aria-labelledby="modalImage10" aria-hidden="true" class="modal fade" id="modalImage10">
     <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content bg-transparent text-white text-center">
-            <img src="img/ITVER/escuela21.png" alt="">
-            <p>Edificio F: Química-Bioquímica</p>
+            <img src="img/ITVER/escuela21.webp" alt="">
+            <p>Edificio F: Departamento de Ingeniería Química y Bioquímica</p>
         </div>
     </div>
 </div>
@@ -389,7 +389,7 @@
 <div tabindex="-1" aria-labelledby="modalImage11" aria-hidden="true" class="modal fade" id="modalImage11">
     <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content bg-transparent text-white text-center">
-            <img src="img/ITVER/escuela22.png" alt="">
+            <img src="img/ITVER/escuela22.webp" alt="">
             <p>Maquinaria que se localiza dentro del Edificio D</p>
         </div>
     </div>
