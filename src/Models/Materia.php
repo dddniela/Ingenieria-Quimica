@@ -27,7 +27,10 @@ class Materia
         $ruta_img = "";
         switch ($Area) {
             case 'Programacion':
-                $ruta_img = 'img/iconos/programacion.png';
+                $ruta_img = 'img/iconos/programacion2.png';
+                break;
+            case 'Etica':
+                $ruta_img = 'img/iconos/etica.png';
                 break;
             case 'Quimica':
                 $ruta_img = 'img/iconos/quimica.png';
@@ -38,8 +41,8 @@ class Materia
             case 'Matematicas':
                 $ruta_img = 'img/iconos/matematicas.png';
                 break;
-            case 'Electrica':
-                $ruta_img = 'img/iconos/electrica.png';
+            case 'Dacp':
+                $ruta_img = 'img/iconos/dapc.png';
                 break;
             case 'Fisica':
                 $ruta_img = 'img/iconos/fisica.PNG';
@@ -47,7 +50,7 @@ class Materia
             case 'Procesos':
                 $ruta_img = 'img/iconos/procesos.png';
                 break;
-            case 'Adminstracion':
+            case 'Administracion':
                 $ruta_img = 'img/iconos/administracion.PNG';
                 break;
             case 'Ambiente':
