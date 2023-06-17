@@ -27,52 +27,52 @@ class Materia
         $ruta_img = "";
         switch ($Area) {
             case 'Programacion':
-                $ruta_img = 'img/iconos/programacion.PNG';
+                $ruta_img = 'img/iconos/programacion.png';
                 break;
-            case 'Asignaturas Comunes':
-                $ruta_img = 'img/iconos/asignaturas-comunes.PNG';
+            case 'Quimica':
+                $ruta_img = 'img/iconos/quimica.png';
                 break;
-            case 'Redes':
-                $ruta_img = 'img/iconos/redes.PNG';
+            case 'Mecanica':
+                $ruta_img = 'img/iconos/mecanica.png';
                 break;
-            case 'Bases de datos':
-                $ruta_img = 'img/iconos/bases-datos.PNG';
+            case 'Matematicas':
+                $ruta_img = 'img/iconos/matematicas.png';
                 break;
-            case 'Electronica':
-                $ruta_img = 'img/iconos/electronica.PNG';
+            case 'Electrica':
+                $ruta_img = 'img/iconos/electrica.png';
                 break;
-            case 'Ingenieria':
-                $ruta_img = 'img/iconos/ingenieria.PNG';
+            case 'Fisica':
+                $ruta_img = 'img/iconos/fisica.PNG';
                 break;
-            case 'Sistemas operativos':
-                $ruta_img = 'img/iconos/sistemasop.PNG';
+            case 'Procesos':
+                $ruta_img = 'img/iconos/procesos.png';
                 break;
-            case 'Calculo':
-                $ruta_img = 'img/iconos/calculo.PNG';
-                break;
-            case 'Estadistica':
-                $ruta_img = 'img/iconos/estadistica.PNG';
-                break;
-            case 'Automatas':
-                $ruta_img = 'img/iconos/automatas.PNG';
-                break;
-            case 'Investigacion':
-                $ruta_img = 'img/iconos/investigacion.PNG';
-                break;
-            case 'Matematicas Aplicada':
-                $ruta_img = 'img/iconos/algebra.PNG';
-                break;
-            case 'Web':
-                $ruta_img = 'img/iconos/programacion-web.PNG';
-                break;
-            case 'Administracion':
+            case 'Adminstracion':
                 $ruta_img = 'img/iconos/administracion.PNG';
                 break;
-            case 'IA':
-                $ruta_img = 'img/iconos/inteligencia-artificial.PNG';
+            case 'Ambiente':
+                $ruta_img = 'img/iconos/ambiente.png';
+                break;
+            case 'Investigacion':
+                $ruta_img = 'img/iconos/investigacion.png';
+                break;
+            case 'Proyectos':
+                $ruta_img = 'img/iconos/proyectos.png';
+                break;
+            case 'Seguridad':
+                $ruta_img = 'img/iconos/seguridad.png';
+                break;
+            case 'Costos':
+                $ruta_img = 'img/iconos/costos.png';
+                break;
+            case 'Optimizacion':
+                $ruta_img = 'img/iconos/optimizacion.png';
+                break;
+            case 'Simulacion':
+                $ruta_img = 'img/iconos/simulacion.png';
                 break;
             default:
-                $ruta_img = 'img/extraescolares/circuloDeLectura.PNG';
+                $ruta_img = 'img/iconos/ingenieria.png';
                 break;
         }
         return $ruta_img;

@@ -58,11 +58,11 @@
                         data-bs-target="#tab-semestre8" type="button" aria-controls="tab-semestre8"
                         aria-selected="false">8vo Semestre</button>
                 </li>
-                <li>
+                <!--<li>
                     <button class="dropdown-item" id="tab-semestre9-tab" data-bs-toggle="pill"
                         data-bs-target="#tab-semestre9" type="button" aria-controls="tab-semestre9"
                         aria-selected="false">9no Semestre</button>
-                </li>
+                </li>-->
             </ul>
         </li>
     </ul>
@@ -100,10 +100,10 @@
             <button class="nav-link" id="tab-semestre8-tab" data-bs-toggle="pill" data-bs-target="#tab-semestre8"
                 type="button" role="tab" aria-controls="tab-semestre8" aria-selected="false">8vo Semestre</button>
         </li>
-        <li class="nav-item" role="presentation">
+        <!-- <li class="nav-item" role="presentation">
             <button class="nav-link" id="tab-semestre9-tab" data-bs-toggle="pill" data-bs-target="#tab-semestre9"
                 type="button" role="tab" aria-controls="tab-semestre9" aria-selected="false">9no Semestre</button>
-        </li>
+        </li>-->
     </ul>
     <div class="tab-content" id="pills-tabContent">
         <div class="tab-pane fade show active" id="tab-semestre1" role="tabpanel" aria-labelledby="tab-semestre1-tab">
@@ -179,7 +179,7 @@
             </div>
 
         </div>
-        <div class="tab-pane fade" id="tab-semestre9" role="tabpanel" aria-labelledby="tab-semestre9-tab">
+        <!--<div class="tab-pane fade" id="tab-semestre9" role="tabpanel" aria-labelledby="tab-semestre9-tab">
             <div class="container">
                 <?php
 
@@ -187,7 +187,7 @@
 
                 ?>
             </div>
-        </div>
+        </div>-->
     </div>
 
     <div class='modal fade' id='modalReticula' tabindex='-1' aria-labelledby='modalReticula' aria-hidden='true'>
@@ -241,12 +241,11 @@
                         </div>
                         <div class="col-12" style="text-align: center;">
                             <p class="text-light" style="text-align: justify;">
-                                La especialidad es el espacio dentro del plan de estudios, constituido por un conjunto
-                                de
-                                asignaturas diseñadas para la formación y desarrollo de competencias, que complementan
-                                la formación
-                                profesional de los estudiantes de las instituciones adscritas al Tecnológico Nacional de
-                                México.
+                            Las especialidades que cuenta el instituto tecnológico de Veracruz en las carreras de ingeniería química 
+                            y bioquímica, las cuales brindan a los estudiantes la oportunidad de especializarse en áreas específicas, 
+                            permitiéndoles desarrollar una formación más enfocada y aplicada. Además, el departamento fomenta la 
+                            realización de proyectos de investigación y prácticas profesionales en empresas e instituciones relacionadas, 
+                            para complementar la formación académica con experiencias prácticas en el campo laboral.
                             </p>
                             <h5 class="font-bold text-warning" style="text-align: justify">Especialidades que han
                                 existido:</h5>

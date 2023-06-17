@@ -166,7 +166,7 @@
         </a>
         <h3 class="areaTitle text-center font-bold text-xl">Salud y Riesgo en los Procesos</h3>
         <p class="areaText">
-        Realiza análisis de Riesgo con el fin de definir las acciones de seguridad funcional y 
+        Realiza análisis de riesgo con el fin de definir las acciones de seguridad funcional y 
         establecer programas de prevención y control de incidentes en plantas de procesos. 
         </p>
       </div>
