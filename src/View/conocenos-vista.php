@@ -150,28 +150,28 @@
                 <div class="row g-0">
                     <div class="col-md-4 px-2">
                         <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage1">
-                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/IMG_4446.webp" alt="">
+                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/labIngQuimica.webp" alt="">
                         </a>
                         <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage2">
-                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/Venus.webp" alt="">
+                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/labQ-Analitica2.webp" alt="">
                         </a>
                     </div>
 
                     <div class="col-md-4 px-2">
+                        <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage3">
+                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/IMG_4446.webp" alt="">
+                        </a>
                         <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage4">
-                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/IMG_2253.webp" alt="">
-                        </a>
-                        <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage5">
-                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/IMG_0456.webp" alt="">
+                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/IMG_4446.webp" alt="">
                         </a>
                     </div>
 
                     <div class="col-md-4 px-2">
-                        <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage7">
-                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/IMG_1110.webp" alt="">
+                        <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage5">
+                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/IMG_4446.webp" alt="">
                         </a>
-                        <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage8">
-                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/IMG_1713.webp" alt="">
+                        <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage6">
+                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/IMG_4446.webp" alt="">
                         </a>
                     </div>
 
@@ -186,8 +186,8 @@
 <div tabindex="-1" aria-labelledby="modalImage1" aria-hidden="true" class="modal fade" id="modalImage1">
     <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content bg-transparent text-white text-center">
-            <img src="img/IMG_4446.webp" alt="">
-            <p>Logo del Instituto Tecnológico de México Veracruz</p>
+            <img src="img/ITVER/labIngQuimica.webp" alt="">
+            <p>Laboratorio de Ingeniería Química</p>
         </div>
     </div>
 </div>
@@ -195,8 +195,8 @@
 <div tabindex="-1" aria-labelledby="modalImage2" aria-hidden="true" class="modal fade" id="modalImage2">
     <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content bg-transparent text-white text-center">
-            <img src="img/Venus.webp" alt="">
-            <p>Estatua Venus</p>
+            <img src="img/ITVER/labQ-Analitica2.webp" alt="">
+            <p>Laboratorio de Química Analítica</p>
         </div>
     </div>
 </div>
@@ -204,7 +204,7 @@
 <div tabindex="-1" aria-labelledby="modalImage3" aria-hidden="true" class="modal fade" id="modalImage3">
     <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content bg-transparent text-white text-center">
-            <img src="img/ITVER.webp" alt="">
+            <img src="img/IMG_4446.webp" alt="">
             <p>Letras del Instituto Tecnológico de México Veracruz</p>
         </div>
     </div>
@@ -213,7 +213,7 @@
 <div tabindex="-1" aria-labelledby="modalImage4" aria-hidden="true" class="modal fade" id="modalImage4">
     <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content bg-transparent text-white text-center">
-            <img src="img/IMG_2253.webp" alt="">
+            <img src="img/IMG_4446.webp" alt="">
             <p>Áreas recreativas</p>
         </div>
     </div>
@@ -222,7 +222,7 @@
 <div tabindex="-1" aria-labelledby="modalImage5" aria-hidden="true" class="modal fade" id="modalImage5">
     <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content bg-transparent text-white text-center">
-            <img src="img/IMG_0456.webp" alt="">
+            <img src="img/IMG_4446.webp" alt="">
             <p>Áreas recreativas</p>
         </div>
     </div>
@@ -231,75 +231,19 @@
 <div tabindex="-1" aria-labelledby="modalImage6" aria-hidden="true" class="modal fade" id="modalImage6">
     <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content bg-transparent text-white text-center">
-            <img src="img/IMG_0579.webp" alt="">
+            <img src="img/IMG_4446.webp alt="">
             <p>Edificio E</p>
-        </div>
-    </div>
-</div>
-
-<div tabindex="-1" aria-labelledby="modalImage7" aria-hidden="true" class="modal fade" id="modalImage7">
-    <div class="modal-dialog modal-lg modal-dialog-centered">
-        <div class="modal-content bg-transparent text-white text-center">
-            <img src="img/IMG_1110.webp" alt="">
-            <p>Clúster del Laboratorio de Cómputo Intensivo</p>
-        </div>
-    </div>
-</div>
-
-<div tabindex="-1" aria-labelledby="modalImage8" aria-hidden="true" class="modal fade" id="modalImage8">
-    <div class="modal-dialog modal-lg modal-dialog-centered">
-        <div class="modal-content bg-transparent text-white text-center">
-            <img src="img/IMG_1713.webp" alt="">
-            <p>Laboratorio de Cómputo Intensivo</p>
-        </div>
-    </div>
-</div>
-
-<div tabindex="-1" aria-labelledby="modalImage9" aria-hidden="true" class="modal fade" id="modalImage9">
-    <div class="modal-dialog modal-lg modal-dialog-centered">
-        <div class="modal-content bg-transparent text-white text-center">
-            <img src="img/IMG_3879.webp" alt="">
-            <p>Laboratorio de cómputo</p>
         </div>
     </div>
 </div>
 <!-- Fin Modals de la galería-->
 <!--Fin Instalaciones-->
 
-<!-- Modals de la galería-->
-<!-- Imagen 1 -->
-<div tabindex="-1" aria-labelledby="modalImage3" aria-hidden="true" class="modal fade" id="modalImage1">
-  <div class="modal-dialog modal-lg modal-dialog-centered">
-    <div class="modal-content bg-transparent text-white text-center">
-      <img src="img/IMG_3878.webp" alt="" />
-    </div>
-  </div>
+<!-- Autores de la página web -->
+<div class="bg-primary pt-5"></div>
+<div class="p-4 text-center">
+  <h5 class="font-bold">Autores de la página:</h5>
+    <p class="font-semibold">Estudiantes de la Generación 2018 - 2023</p>
+    <p>Marco Gabriel Cortés Toledo, Daniela Castro Rodriguez, 
+      Nancy Daniela Mendez Arpidez, Yelitza Magali Rosas Jiménez, Gabriel Escobar Medina</p>
 </div>
-
-<!-- Imagen 2 -->
-<div tabindex="-1" aria-labelledby="modalImage4" aria-hidden="true" class="modal fade" id="modalImage2">
-  <div class="modal-dialog modal-lg modal-dialog-centered">
-    <div class="modal-content bg-transparent text-white text-center">
-      <img src="img/IMG_1110.webp" alt="" />
-    </div>
-  </div>
-</div>
-
-<!-- Imagen 3 -->
-<div tabindex="-1" aria-labelledby="modalImage5" aria-hidden="true" class="modal fade" id="modalImage3">
-  <div class="modal-dialog modal-lg modal-dialog-centered">
-    <div class="modal-content bg-transparent text-white text-center">
-      <img src="img/IMG_3879.webp" alt="" />
-    </div>
-  </div>
-</div>
-
-<!-- Imagen 4 -->
-<div tabindex="-1" aria-labelledby="modalImage6" aria-hidden="true" class="modal fade" id="modalImage4">
-  <div class="modal-dialog modal-lg modal-dialog-centered">
-    <div class="modal-content bg-transparent text-white text-center">
-      <img src="img/IMG_0959.webp" alt="" />
-    </div>
-  </div>
-</div>
-<!-- Fin Modals de la galería-->
