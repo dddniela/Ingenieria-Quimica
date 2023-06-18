@@ -318,11 +318,10 @@
                             <div class="sectionSeparator"></div>
                         </div>
                         <div class="col-12" style="text-align: center;">
-                            <p style="text-align: justify;"> El plan de estudios de la carrera de ingeniería en sistemas
-                                computacionales ofrece
-                                un desarrollo integral y profesional con el objetivo de que el estudiante se pueda
-                                desenvolver en diferentes áreas
-                                de la tecnología, ofreciendo soluciones óptimas e innovadoras.
+                            <p style="text-align: justify;">
+                            El plan de estudios de la carrera de ingeniería química ofrece un desarrollo en 
+                            las áreas de proceso, ambiental, seguridad, control de procesos, calidad, en 
+                            industrias de la transformación y de servicios.
                             </p>
                             <h5 class="font-bold" style="text-align: justify">Trayectoria del alumno:</h5>
                             <div class="bg-light">
