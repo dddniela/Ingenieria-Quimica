@@ -1,3 +1,10 @@
+<?php
+require_once("src/Models/Seccion.php");
+$seccion = new Seccion();
+$seccion->setConnection($conn->getDB());
+
+$objetivo = $seccion->getObjetivo();
+?>
 <!-- Portada -->
 <div class="row g-0">
     <div class="position-relative w-100 overflow-hidden">
@@ -15,41 +22,44 @@
 <!-- Objetivo general -->
 <section class="p-2">
     <div class="row px-2 g-0">
-        <div class="col-lg-6 col-sm-12">
-            <div class="galleryContainer bg-light">
+        <!-- <div class="col-lg-6 col-sm-12">
+           <div class="galleryContainer bg-light">
                 <div class="row g-0">
                     <div class="col-4 px-2">
-                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Alumnos/grupal1.webp" alt="">
-                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Alumnos/monse.webp" alt="">
+                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/IMG_1335.webp" alt="">
+                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/IMG_1394.webp" alt="">
                     </div>
 
                     <div class="col-4 px-2">
-                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Alumnos/monseAmiga1.webp" alt="">
-                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Alumnos/yohan.webp" alt="">
+                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/IMG_1407.webp" alt="">
+                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/IMG_1337.webp" alt="">
                     </div>
 
                     <div class="col-4 px-2">
-                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Alumnos/grupal2.webp" alt="">
-                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Alumnos/monseAmiga2.webp" alt="">
+                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/IMG_1363.webp" alt="">
+                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/IMG_1380.webp" alt="">
                     </div>
 
                 </div>
+            </div> 
+        </div>-->
+        <div class="col-lg-6 col-12 p-2 shadow-sm">
+            <div class="d-flex justify-content-center align-items-center w-100 h-100">
+                <img class="img-fluid rounded" src="img/IMG_7305.JPG" alt="">
             </div>
         </div>
-
         <div class="lightSection col-lg-6 col-12 p-4">
             <div class="d-flex justify-content-center align-items-center w-100 h-100">
                 <div class="row g-0">
                     <div class="col-12">
-                        <h2 class="sectionTitle text-center font-bold m-3">Objetivo general</h2>
+                        <h2 class="sectionTitle text-center font-bold m-3">
+                            <?php echo $objetivo->titulo ?>
+                        </h2>
                         <div class="sectionSeparator"></div>
                     </div>
                     <div class="col-12" style="text-align: center;">
-                        <p style="text-align: justify;"> Formar profesionistas en Ingeniería Química competentes para investigar, 
-                        generar y aplicar el conocimiento científico y tecnológico, que le permita identificar y resolver problemas 
-                        de diseño, operación, adaptación, optimización y administración en industrias químicas y de servicios,
-                        con calidad, seguridad, economía, usando racional y eficientemente los recursos naturales, conservando el medio 
-                        ambiente, cumpliendo el código ético de la profesión y participando en el bienestar de la sociedad.
+                        <p style="text-align: justify;">
+                            <?php echo $objetivo->descripcion ?>
                         </p>
                     </div>
                 </div>
@@ -130,89 +140,9 @@
                 <div class="sectionSeparator"></div>
 
                 <div class="row g-0">
-                    <div class="col-lg-4 col-sm-6 text-center p-3">
-                        <div class="area shadow-sm p-4">
-                            <img class="imagenArea items-center" src="img/iconos/OBJ1.png" alt="">
-                            <p class="textoArea">Diseña, selecciona, opera, optimiza y controla procesos en industrias químicas 
-                                y de servicios con base en el desarrollo tecnológico de acuerdo a las normas de higiene y seguridad, 
-                                de manera sustentable.</p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-sm-6 text-center p-3">
-                        <div class="area shadow-sm p-4">
-                            <img class="imagenArea items-center" src="img/iconos/OBJ2.png" alt="">
-                            <p class="textoArea">Colabora en equipos interdisciplinarios y multiculturales en su 
-                                ámbito laboral, con actitud innovadora, espíritu crítico, disposición al cambio y 
-                                apego a la ética profesional.</p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-sm-6 text-center p-3">
-                        <div class="area shadow-sm p-4">
-                            <img class="imagenArea items-center" src="img/iconos/OBJ3.png" alt="">
-                            <p class="textoArea"> Planea e implementa sistemas de gestión de calidad, ambiental e higiene 
-                                y seguridad en los diferentes sectores, conforme a las normas nacionales e internacionales.</p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-sm-6 text-center p-3">
-                        <div class="area shadow-sm p-4">
-                            <img class="imagenArea items-center" src="img/iconos/OBJ4.png" alt="">
-                            <p class="textoArea">Utiliza las tecnologías de la información y comunicación como herramientas 
-                                en la construcción de soluciones a problemas de ingeniería y difundir el conocimiento científico 
-                                y tecnológico.</p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-sm-6 text-center p-3">
-                        <div class="area shadow-sm p-4">
-                            <img class="imagenArea items-center" src="img/iconos/OBJ5.png" alt="">
-                            <p class="textoArea">Realiza innovación y adaptación de tecnología en procesos 
-                                aplicando la metodología científica, con respeto a la propiedad intelectual.</p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-sm-6 text-center p-3">
-                        <div class="area shadow-sm p-4">
-                            <img class="imagenArea items-center" src="img/iconos/OBJ6.png" alt="">
-                            <p class="textoArea">Utiliza un segundo idioma en su ámbito laboral según los requerimientos del entorno.</p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-sm-6 text-center p-3">
-                        <div class="area shadow-sm p-4">
-                            <img class="imagenArea items-center" src="img/iconos/OBJ7.png" alt="">
-                            <p class="textoArea">Se comunica en forma oral y escrita en el ámbito laboral de manera expedita y concisa.</p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-sm-6 text-center p-3">
-                        <div class="area shadow-sm p-4">
-                            <img class="imagenArea items-center" src="img/iconos/OBJ8.png" alt="">
-                            <p class="textoArea">Demuestra actitud creativa, emprendedora y de liderazgo para impulsar y crear empresas 
-                                que contribuyan al progreso nacional.</p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-sm-6 text-center p-3">
-                        <div class="area shadow-sm p-4">
-                            <img class="imagenArea items-center" src="img/iconos/OBJ9.png" alt="">
-                            <p class="textoArea">Administrar recursos humanos, materiales y financieros para los sectores público y privado, 
-                                acorde a modelos administrativos vigentes.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-sm-6 text-center p-3">
-                        <div class="area shadow-sm p-4">
-                            <img class="imagenArea items-center" src="img/iconos/OBJ10.png" alt="">
-                            <p class="textoArea">Demuestra actitudes de superación continua para lograr metas personales y profesionales con 
-                                pertinencia y competitividad.
-                            </p>
-                        </div>
-                    </div>
-
+                <?php
+                    echo $seccion->imprimirDatos();
+                    ?>
                 </div>
             </section>
             <!-- Fin Puntos del perfil de egreso -->
