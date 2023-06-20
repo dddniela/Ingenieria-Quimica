@@ -28,17 +28,23 @@ class Especialidad
     {
         $ruta_img = "";
         switch ($Area) {
-            case 'Sistemas Concurrentes':
-                $ruta_img = 'img/iconos/circuloDeLectura.PNG';
+            case 'Optimizacion':
+                $ruta_img = 'img/iconos/optimizacion.png';
                 break;
-            case 'Distribuidas':
-                $ruta_img = 'img/iconos/circuloDeLectura.PNG';
+            case 'Procesos':
+                $ruta_img = 'img/iconos/procesos.png';
                 break;
-            case 'Transacciones':
-                $ruta_img = 'img/iconos/circuloDeLectura.PNG';
+            case 'Simulacion':
+                $ruta_img = 'img/iconos/simulacion.png';
+                break;
+            case 'Seguridad':
+                $ruta_img = 'img/iconos/seguridad.png';
+                break;
+            case 'Ambiente':
+                $ruta_img = 'img/iconos/ambiente.png';
                 break;
             default:
-                $ruta_img = 'img/extraescolares/circuloDeLectura.PNG';
+                $ruta_img = 'img/iconos/ingenieria.png';
                 break;
         }
         return $ruta_img;

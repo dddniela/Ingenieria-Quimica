@@ -11,8 +11,8 @@ $objetivo = $seccion->getObjetivo();
         <img class="w-100 img-fluid" src="img/IBQ-IQ/P20.webp" alt="">
         <div class="position-absolute top-50 start-50 translate-middle w-100">
             <div class="d-flex flex-column justify-content-center align-items-center text-center">
-                <h1 class="fw-bold text-warning">Perfil de Egreso</h1>
-                <h1 class="fw-bold text-light d-md-flex d-none">Ingeniería Química</h1>
+                <h1 class="fw-bold text-warning text-stroke">Perfil de Egreso</h1>
+                <h1 class="fw-bold text-light d-md-flex d-none text-stroke">Ingeniería Química</h1>
             </div>
         </div>
     </div>
