@@ -22,31 +22,25 @@ $objetivo = $seccion->getObjetivo();
 <!-- Objetivo general -->
 <section class="p-2">
     <div class="row px-2 g-0">
-        <!-- <div class="col-lg-6 col-sm-12">
+        <div class="col-lg-6 col-sm-12">
            <div class="galleryContainer bg-light">
                 <div class="row g-0">
-                    <div class="col-4 px-2">
-                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/IMG_1335.webp" alt="">
-                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/IMG_1394.webp" alt="">
+                <div class="col-4 px-2">
+                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Alumnos/grupal1.webp" alt="">
+                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Alumnos/monse.webp" alt="">
                     </div>
 
                     <div class="col-4 px-2">
-                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/IMG_1407.webp" alt="">
-                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/IMG_1337.webp" alt="">
+                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Alumnos/monseAmiga1.webp" alt="">
+                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Alumnos/yohan.webp" alt="">
                     </div>
 
                     <div class="col-4 px-2">
-                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/IMG_1363.webp" alt="">
-                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/IMG_1380.webp" alt="">
+                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Alumnos/grupal2.webp" alt="">
+                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Alumnos/monseAmiga2.webp" alt="">
                     </div>
-
                 </div>
             </div> 
-        </div>-->
-        <div class="col-lg-6 col-12 p-2 shadow-sm">
-            <div class="d-flex justify-content-center align-items-center w-100 h-100">
-                <img class="img-fluid rounded" src="img/IMG_7305.JPG" alt="">
-            </div>
         </div>
         <div class="lightSection col-lg-6 col-12 p-4">
             <div class="d-flex justify-content-center align-items-center w-100 h-100">
@@ -82,44 +76,9 @@ $objetivo = $seccion->getObjetivo();
                         en un plazo de 5 años después de su egreso del programa.</p>
 
                     <div class="row g-0">
-                        <div class="col-lg-6 col-sm-6 text-start p-3">
-                            <div class="area shadow-sm p-4">
-                                <img class="my-4 mx-4" style="float: left;" src="img/iconos/1.png" alt="" height="60px">
-                                <p class="textoArea" style="text-align: justify;">El egresado es un profesional competente que colabora en equipos interdisciplinarios 
-                                    y multidisciplinarios como gerentes, superintendentes, coordinadores, jefes de departamento, 
-                                    operarios y supervisores en el ámbito laboral de la ingeniería química y función pública y privada.</p>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-6 col-sm-6 text-start p-3">
-                            <div class="area shadow-sm p-4">
-                                <img class="my-5 mx-4" style="float: left;" src="img/iconos/2.png" alt="" height="60px">
-                                <p class="textoArea" style="text-align: justify;">El egresado es un profesionista competente con el conocimiento científico 
-                                    y las habilidades técnicas para desempeñarse en los campos de la investigación, diseño, mejora, 
-                                    desarrollo de procesos, formulación y evaluación de proyectos, gestión logística, 
-                                    planteamiento y control de operaciones en empresas de sectores públicos y privados.</p>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-6 col-sm-6 text-start p-3">
-                            <div class="area shadow-sm p-4">
-                                <img class="my-5 mx-4" style="float: left;" src="img/iconos/3.png" alt="" height="60px">
-                                <p class="textoArea" style="text-align: justify;">El egresado es un profesional competente que comunica información técnica de modo efectivo, 
-                                    para todo tipo de sectores, interactuando incluso en grupos multidisciplinarios e incorporando nuevas 
-                                    tecnologías que contribuyen al progreso y desarrollo en su actividad profesional, asumiendo así un rol proactivo.
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-6 col-sm-6 text-start p-3">
-                            <div class="area shadow-sm p-4">
-                                <img class="my-4 mx-4" style="float: left;" src="img/iconos/4.png" alt="" height="60px">
-                                <p class="textoArea" style="text-align: justify;">El egresado es un profesional competente que ejerce su profesión con actitud 
-                                    responsable y un profundo sentido ético,  respeto a la normativa social y 
-                                    a los sistemas de gestión inherente a su práctica profesional.
-                                </p>
-                            </div>
-                        </div>
+                        <?php
+                            echo $seccion->imprimirObjetivosEducacionales();
+                        ?>
                     </div>
                 </section>
                 <!-- Fin Puntos del perfil de egreso -->
@@ -141,7 +100,7 @@ $objetivo = $seccion->getObjetivo();
 
                 <div class="row g-0">
                 <?php
-                    echo $seccion->imprimirDatos();
+                    echo $seccion->imprimirPerfilEgreso();
                     ?>
                 </div>
             </section>
