@@ -85,11 +85,16 @@ class Seccion
                 $descripcion = $row['descripcion'];
                 $imagen = $row['imagen'];
                 $tabla .= "<div class='col-lg-6 col-sm-6 text-start p-3'>
-                            <div class='area shadow-sm p-4'>
-                                <img class='my-4 mx-4' style='float: left;' src='$imagen' alt='' height='60px'>
+                            <div class='row g-0 area shadow-sm p-4'>
+                                <div class='col-2 d-flex flex-row justify-content-center align-items-center'>
+                                    <img class='m-2' style='float: left;' src='$imagen' alt='' height='60px'>
+                                </div>
+                                <div class='col-10 justify-content-center'>
                                     <p class='textoArea' style='text-align: justify;'>
                                     $descripcion 
                                     </p>
+                                </div>
+                               
                                 </div>
                             </div>";
             }
