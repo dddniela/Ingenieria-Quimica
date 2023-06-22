@@ -269,12 +269,13 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
     <p class="font-semibold">Estudiantes de la Generación 2018 - 2023
     </p>
     <p>Marco Gabriel Cortés Toledo, Daniela Castro Rodriguez, 
-      Nancy Daniela Mendez Arpidez, Yelitza Magali Rosas Jiménez, Gabriel Escobar Medina
+      Nancy Daniela Mendez Arpidez, Yelitza Magali Rosas Jiménez, Gabriel Escobar Medina.
     </p> <br />
     <p class="font-semibold">
       Agradecimientos a:
     </p>
     <p>
-      Ángel Sánchez Domínguez, Eric Manuel Montalvo Cruz, Iván Agame Malpica
+      Ángel Sánchez Domínguez, Eric Manuel Montalvo Cruz, Iván Agame Malpica, 
+      Monserrat Rojas Vicario, Aida Ramírez Montero.
     </p>
 </div>
