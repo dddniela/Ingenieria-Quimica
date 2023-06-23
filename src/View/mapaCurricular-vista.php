@@ -362,8 +362,7 @@
                             <p class="text-dark" style="text-align: justify;">
                                 Las actividades complementarias son todas aquellas actividades que
                                 realiza el estudiante en beneficio de su formación integral con el objetivo de
-                                complementar su desarrollo
-                                de competencia profesionales.
+                                complementar su desarrollo de competencia profesionales.
                                 <br><br>
                                 Las actividades complementarias pueden ser: tutorías, actividades extraescolares,
                                 proyectos de investigación o
@@ -411,7 +410,7 @@
                             y obligatorio, que
                             institucionalmente prestan y ejecutan los estudiantes en beneficio de la sociedad. Los
                             estudiantes de las instituciones
-                            adscritas al TecNM prestan el servicio social para cumplir con los créditos de sus planes de
+                            adscritas al TECNM prestan el servicio social para cumplir con los créditos de sus planes de
                             estudio.
                         </p>
                         <h5 class="font-bold" style="text-align: justify">Requisitos para cursar el servicio social:
@@ -601,7 +600,7 @@
                                 vigente de la Secretaría de Educación Pública (SEP), ofreciendo las asignaturas de
                                 los planes de estudio vigentes.
                                 <br><br>
-                                El alumno puede reinscribirse hasta en dos asignaturas como máximo o podrá cursar una sola
+                                El estudiante puede reinscribirse hasta en dos asignaturas como máximo o podrá cursar una sola
                                 asignatura,
                                 cuando ésta sea de opción de curso especial.
                             </p>
