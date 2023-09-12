@@ -206,7 +206,7 @@ $objetivo = $seccion->getObjetivo();
 <div tabindex="-1" aria-labelledby="modalImage3" aria-hidden="true" class="modal fade" id="modalImage3">
     <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content bg-transparent text-white text-center">
-            <img src="img/escuela10.webp" alt="">
+            <img src="img/ITVER/escuela10.webp" alt="">
             <p>Puente que conecta al Edificio F con el Edificio E</p>
         </div>
     </div>
