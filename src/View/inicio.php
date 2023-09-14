@@ -244,22 +244,22 @@
       <div class="galleryContainer bg-light">
         <div class="row g-0">
           <div class="col-4 px-2">
-            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes/sandraPerezCorrea.webp"
+            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes/alejandroLeonHernandez.webp"
               alt="">
             <img class="img-fluid w-100 shadow-1-strong rounded m-2"
-              src="img/Docentes/genovevaDominguezSanchez.webp" alt="">
+              src="img/Docentes/yolandaHernandezCardona.webp" alt="">
+          </div>
+
+          <div class="col-4 px-2">
+            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes/SandraCarmonaReyes.webp"
+              alt="">
+            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes/marioDiazGonzalez.webp" alt="">
           </div>
 
           <div class="col-4 px-2">
             <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes/manuelSusunagaMiranda.webp"
               alt="">
-            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes/joseBarranHerrera.webp" alt="">
-          </div>
-
-          <div class="col-4 px-2">
-            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes/patriciaMendozaGarcia.webp"
-              alt="">
-            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes/aniluMirandaMedina.webp"
+            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes/araceliRodriguezAndrade.webp"
               alt="">
           </div>
 
