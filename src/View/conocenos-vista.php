@@ -296,7 +296,7 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
 
 <div class="p-1 text-center">
   <p class="font-semibold">Agradecimientos</p>
-  <p>Ángel Sánchez Domínguez, Fernando Martinez, Ángel Manuel Sandria Pérez, Eric Manuel Montalvo Cruz, Iván de Jesús Agame Malpica,
-  Héctor Hugo Herrera López, Monserrat Rojas Vicario y Aida Ramírez Montero.
+  <p>Eric Manuel Montalvo Cruz, Iván de Jesús Agame Malpica, Ángel Sánchez Domínguez, Héctor Hugo Herrera López, Monserrat Rojas Vicario, Aida Ramírez Montero,
+    Fernando Martinez, Ángel Manuel Sandria Pérez.
   </p>
 </div>
