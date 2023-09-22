@@ -100,7 +100,7 @@ class Comunidad
                                         <h3 class='tituloAreaDocente text-center font-bold text-xl'>$nombre</h3>
                                     </div>
                                     <div class='d-flex flex-row justify-content-center mt-2'>
-                                        <button type='button' class='btn btn-warning font-bold' data-bs-toggle='modal' data-bs-target='#ModalComunidad" . $comunidadId . "'>Ver mas</button>
+                                        <button type='button' class='btn btn-warning font-bold' data-bs-toggle='modal' data-bs-target='#ModalComunidad" . $comunidadId . "'>Ver más</button>
                                     </div>
                                 </div>
                             </div>";
@@ -140,7 +140,7 @@ class Comunidad
                                             <div class='d-flex flex-row justify-content-start m-2' style='text-align: justify;'>
                                                 <div class='col-12'>
                                                     <div class='row'>
-                                                        <h1 class='amarillo text-center py-2 fs-4 font-semibold'>¿Que hacemos?</h1> 
+                                                        <h1 class='amarillo text-center py-2 fs-4 font-semibold'>¿Qué hacemos?</h1> 
                                                     </div> 
                                                     $queHacemos
                                                 </div> 
