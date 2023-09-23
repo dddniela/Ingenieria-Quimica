@@ -261,7 +261,7 @@ $objetivo = $seccion->getObjetivo();
     <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content bg-transparent text-white text-center">
             <img src="img/ITVER/escuela9.webp" alt="">
-            <p>Pasillo del Edificio F</p>
+            <p>Evento Nacional de Innovación Tecnológica </p>
         </div>
     </div>
 </div>
