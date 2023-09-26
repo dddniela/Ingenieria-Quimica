@@ -262,7 +262,7 @@
 
             <div class="col-lg-6 col-12 p-2 shadow-sm">
                 <div class="d-flex justify-content-center align-items-center w-100 h-100">
-                    <img class="img-fluid rounded" src="img/IBQ-IQ/IMG4.png" alt="">
+                    <img class="img-fluid rounded" src="img/IBQ-IQ/IMG4.webp" alt="">
                 </div>
             </div>
 
@@ -431,7 +431,7 @@
 
 <!-- Residencias profesionales -->
 <div class="bg-primary pt-5">
-    <img src="img/IBQ-IQ/P48.png" class="w-full" alt="">
+    <img src="img/IBQ-IQ/P29.webp" class="w-full" alt="">
     <section class="darkSection bg-dark">
         <div class="row px-2 g-0">
             <div class="col-lg-12 col-12 py-4">
@@ -547,7 +547,7 @@
 
         <div class="col-lg-6 col-12 p-2 shadow-sm">
             <div class="d-flex justify-content-center align-items-center w-100 h-100">
-                <img class="img-fluid rounded" src="img/IBQ-IQ/IQ16.png" alt="">
+                <img class="img-fluid rounded" src="img/IBQ-IQ/IQ16.webp" alt="">
             </div>
         </div>
 
@@ -610,7 +610,7 @@
 
             <div class="col-lg-6 col-12 p-2 shadow-sm">
                 <div class="d-flex justify-content-center align-items-center w-100 h-100">
-                    <img class="img-fluid rounded" src="img/IBQ-IQ/IQ22.png" alt="">
+                    <img class="img-fluid rounded" src="img/IBQ-IQ/IQ22.webp" alt="">
                 </div>
             </div>
 
