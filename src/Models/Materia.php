@@ -44,13 +44,13 @@ class Materia
                 $ruta_img = 'img/iconos/dapc.png';
                 break;
             case 'Fisica':
-                $ruta_img = 'img/iconos/fisica.PNG';
+                $ruta_img = 'img/iconos/fisica.png';
                 break;
             case 'Procesos':
                 $ruta_img = 'img/iconos/procesos.png';
                 break;
             case 'Administracion':
-                $ruta_img = 'img/iconos/administracion.PNG';
+                $ruta_img = 'img/iconos/administracion.png';
                 break;
             case 'Ambiente':
                 $ruta_img = 'img/iconos/ambiente.png';
