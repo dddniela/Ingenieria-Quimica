@@ -227,10 +227,6 @@ $reticula = $seccion->imprimirBotonReticula();
 
 
     <div class="justify-content-center text-center">
-        <p><a class="btn-warning w-auto btn font-bold" target="_blank" href="https://tinyurl.com/25zsjst5">Descargar
-                Retícula</a></p>
-    </div>
-    <div class="justify-content-center text-center">
         <?php
         if ($reticula) {
             echo $reticula;
