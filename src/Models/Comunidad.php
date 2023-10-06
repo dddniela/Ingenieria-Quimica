@@ -92,18 +92,22 @@ class Comunidad
                 $array = explode(',', $fotosComunidad);
                 $num = count($array);
                 $tabla .=  "<div class='col-lg-4 col-sm-6 text-center p-3'>
-                                <div class='area shadow-sm p-4 rounded-3'>
-                                    <div class='d-flex flex-row justify-content-center my-1'>
-                                        <img class='rounded-circle p-1 bg-primary imagen-docentes' src='img/Comunidades/$logo' alt=''>
-                                    </div>
-                                    <div class='d-flex flex-row justify-content-center'>
-                                        <h3 class='tituloAreaDocente text-center font-bold text-xl'>$nombre</h3>
-                                    </div>
-                                    <div class='d-flex flex-row justify-content-center'>
-                                        <button type='button' class='btn btn-warning font-bold' data-bs-toggle='modal' data-bs-target='#ModalComunidad" . $comunidadId . "'>Ver mas</button>
-                                    </div>
-                                </div>
-                            </div>";
+                <div class='area shadow-sm p-4 rounded-3' style='margin: 10px;'>
+                    <!-- Aplica márgenes de 10px alrededor de la tarjeta -->
+                    <div class='d-flex flex-row justify-content-center my-1'>
+                        <img class='rounded-circle p-1 bg-primary imagen-docentes' src='img/Comunidades/$logo' alt=''>
+                    </div>
+                    <div class='d-flex flex-row justify-content-center'>
+                        <h3 class='tituloAreaDocente text-center font-bold' style='font-size: 1.5rem;'>$nombre</h3>
+                        <!-- Modifica el tamaño de la fuente con el estilo 'font-size' -->
+                    </div>
+                    <div class='d-flex flex-row justify-content-center mt-5'>
+            <button type='button' class='btn btn-warning font-bold' data-bs-toggle='modal' data-bs-target='#ModalComunidad" . $comunidadId . "'>Ver más</button>
+        </div>
+
+                </div>
+            </div>";
+            
 
                 $tabla .=   "<div class='modal fade' id='ModalComunidad$comunidadId' tabindex='-1' aria-labelledby='exampleModalLabel' aria-hidden='true'>
                                 <div class='modal-dialog modal-lg'>
