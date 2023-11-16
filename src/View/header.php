@@ -76,14 +76,8 @@
         </div>
         <div class="col-sm-auto justify-content-end d-none d-xl-block">
             <div class="text-right">
-                <a href="https://globalpage-prod.webex.com/join?surl=https%3A%2F%2Fsignin.webex.com%2Fcollabs%2F%23%2Fmeetings%2Fjoinbynumber%3FTrackID%3D%26hbxref%3D%26goid%3Dattend-meeting" title="Microsoft Teams" target="_blank" style="text-decoration: none;">
-                    <img loading='lazy' height="40" src="img/encabezado/microsoft_teams.png" alt="MT">
-                </a>
                 <a href="https://login.microsoftonline.com/?whr=tecnm.mx" title="Correo Institucional" target="_blank" style="text-decoration: none;">
                     <img loading='lazy' height="40" src="img/encabezado/correo-icono.png" alt="Buzón">
-                </a>
-                <a href="pdf/Calendario_Academico_2019-2020.pdf" title="Calendario Académico" target="_blank" style="text-decoration: none;">
-                    <img loading='lazy' height="40" src="img/encabezado/calendario-icono.png" alt="Calendario Académico">
                 </a>
 
                 <!-- Traductor -->
@@ -105,13 +99,6 @@
 
                 <img loading='lazy' height="40" title="Accesibilidad" src="img/encabezado/ojo-icono.png" alt="Débil Visual" />
 
-                <a class="btn--accesibilidad contraste" height="40">
-                    <svg class="svg-inline--fa fa-adjust fa-w-16" height="40" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="adjust" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
-                        <path fill="#1B396A" d="M8 256c0 136.966 111.033 248 248 248s248-111.034 248-248S392.966 8 256 8 8 119.033 8 256zm248 184V72c101.705 0 184 82.311 184 184 0 101.705-82.311 184-184 184z">
-                            <title>Contraste</title>
-                        </path>
-                    </svg>
-                </a>
                 <button class="btnCambioTexto" onclick="return cambiarTexto('+')">A+</button>
                 <button class="btnCambioTexto" onclick="return cambiarTexto('-')">A-</button>
                 <button class="btnCambioTexto" onclick="resetLetra()" title="Restablecer tamaño">A</button>
@@ -151,7 +138,7 @@
                         <a class="nav-link active dropdown-toggle hover-blue" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Enlaces
                         </a>
-                        <ul class="dropdown-menu" style="background-color: #312e81;" aria-labelledby="navbarDropdown">
+                        <ul class="dropdown-menu" style="background-color: #1B396A;" aria-labelledby="navbarDropdown">
                             <li><a class="dropdown-item hover-blue" target="_blank" href="https://www.tecnm.mx/">TECNM</a></li>
                             <li><a class="dropdown-item hover-blue" target="_blank" href="http://www.veracruz.tecnm.mx/">ITVER</a></li>
                             <li><a class="dropdown-item hover-blue" target="_blank" href="https://sii.veracruz.tecnm.mx/">SII</a></li>
@@ -160,6 +147,7 @@
                             <li><a class="dropdown-item hover-blue" target="_blank" href="https://elibro.net/es/lc/itver/login_usuario/">Biblioteca eLibro</a></li>
                             <li><a class="dropdown-item hover-blue" target="_blank" href="https://www.veracruz.tecnm.mx/index.php/normateca/documentos-operativos/manuales">Manuales del ITVER</a></li>
                             <li><a class="dropdown-item hover-blue" target="_blank" href="https://bit.ly/3KVYAol">Reglamento de Estudiantes del TecNM</a></li>
+                            <li><a class="dropdown-item hover-blue" target="_blank" href="https://www.veracruz.tecnm.mx/index.php/enlaces/articulos/347-calendario-escolar-2019">Calendario Escolar</a></li>
                         </ul>
                     </li>
                 </ul>

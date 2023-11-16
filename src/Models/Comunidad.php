@@ -70,15 +70,24 @@ class Comunidad
 
     public function getComunidades()
     {
-        $cn = $this->connection;
-        $sql = 'SELECT * FROM tbl_comunidad WHERE programaId=' . $GLOBALS['programaId'] . ' AND status = 1 ORDER BY nombre ASC';
-        $comunidades = mysqli_query($this->connection, $sql);
-        return $comunidades;
+        $url =  $GLOBALS['api'] . '/api/comunidad/getComunidadByProgramaId?programaId=' . $GLOBALS['programaId'];
+
+        $headers = ['Content-Type: application/json'];
+        $ch = curl_init();
+        curl_setopt($ch, CURLOPT_URL, $url);
+        curl_setopt($ch, CURLOPT_HTTPGET, true);
+        curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+        $result = curl_exec($ch);
+        curl_close($ch);
+
+        return json_decode($result, true);
     }
 
     function imprimirDatos()
     {
-        $ResultSet = $this->getComunidades();
+        $comunidades = $this->getComunidades();
         $tabla = "";
 
         if ($ResultSet->num_rows > 0) {
@@ -109,7 +118,7 @@ class Comunidad
             </div>";
             
 
-                $tabla .=   "<div class='modal fade' id='ModalComunidad$comunidadId' tabindex='-1' aria-labelledby='exampleModalLabel' aria-hidden='true'>
+            $tabla .=   "<div class='modal fade' id='ModalComunidad$comunidadId' tabindex='-1' aria-labelledby='exampleModalLabel' aria-hidden='true'>
                                 <div class='modal-dialog modal-lg'>
                                     <div class='modal-content'>
 
@@ -123,7 +132,7 @@ class Comunidad
                                                 <div class='row justify-content-center m-2'>
                                                     <div class='col-7 col-lg-auto justify-content-center m-2'>
                                                         <div class='d-flex justify-content-center'>
-                                                            <img class='rounded-circle p-1 bg-primary imagen-docentesModal' src='img/Comunidades/$logo' alt=''>
+                                                            <img class='rounded-circle p-1 bg-primary imagen-docentesModal' src='$logo' alt=''>
                                                         </div>
                                                     </div>
                                                     <div class='col-12 col-lg-7 justify-content-center align-items-center m-2'>
@@ -149,28 +158,41 @@ class Comunidad
                                                     $queHacemos
                                                 </div> 
                                             </div>";
-                if (count($array) != 1) {
-                    $foto1 = count($array) != 0 ? $array[0] : 0;
-                    $foto2 = count($array) != 0 ? $array[1] : 0;
-                    $tabla .=  "<div class='d-flex flex-row justify-content-start m-2' style='text-align: justify;'>
+            if (count($array) != 1) {
+                $foto1 = count($array) != 0 ? $array[0] : 0;
+                $foto2 = count($array) != 0 ? $array[1] : 0;
+                
+                if ($array[0]) {
+                    $type = pathinfo($array[0], PATHINFO_EXTENSION);
+                    $foto1 = file_get_contents($GLOBALS['PATH_COMUNIDAD'] . $array[0]);
+                    $foto1 = 'data:image/' . $type . ';base64,' . base64_encode($foto1);
+                }
+
+                if ($array[1]) {
+                    $type = pathinfo($array[1], PATHINFO_EXTENSION);
+                    $foto2 = file_get_contents($GLOBALS['PATH_COMUNIDAD'] . $array[1]);
+                    $foto2 = 'data:image/' . $type . ';base64,' . base64_encode($foto2);
+                }
+
+                $tabla .=  "<div class='d-flex flex-row justify-content-start m-2' style='text-align: justify;'>
                                                 <div class='col-12'>
                                                     <div class='row'>
                                                         <div class='col-lg-6'>
-                                                            <img class='img-normalizada shadow-1-strong rounded mb-4' src='img/Comunidades/$foto1' alt='' />  
+                                                            <img class='img-normalizada shadow-1-strong rounded mb-4' src='$foto1' alt='' />  
                                                         </div>     
                                                         <div class='col-lg-6'>
-                                                            <img class='img-normalizada shadow-1-strong rounded mb-4' src='img/Comunidades/$foto2' alt='' />  
+                                                        <img class='img-normalizada shadow-1-strong rounded mb-4' src='$foto2' alt='' />  
                                                         </div>
                                                     </div> 
                                                 </div> 
                                             </div>";
-                }
-                $tabla .=   "</div>
+            }
+            $tabla .=   "</div>
                                     </div>
                                 </div>
                             </div>";
-            }
         }
+
         return $tabla;
     }
 }

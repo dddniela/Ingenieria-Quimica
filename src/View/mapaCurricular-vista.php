@@ -1,3 +1,10 @@
+<?php
+require_once("src/Models/Seccion.php");
+$seccion = new Seccion();
+$seccion->setConnection($conn->getDB());
+
+$reticula = $seccion->imprimirBotonReticula();
+?>
 <div class="row g-0">
     <div class="position-relative w-100 overflow-hidden">
         <img class="w-100 img-fluid" src="img/IBQ-IQ/P35.webp" alt="">
@@ -220,10 +227,12 @@
 
 
     <div class="justify-content-center text-center">
-        <p><a class="btn-warning w-auto btn font-bold" target="_blank" href="https://tinyurl.com/25zsjst5">Descargar
-                Retícula</a></p>
+        <?php
+        if ($reticula) {
+            echo $reticula;
+        }
+        ?>
     </div>
-
 </div>
 <!-- Fin Mapa curricular -->
 
@@ -262,7 +271,7 @@
 
             <div class="col-lg-6 col-12 p-2 shadow-sm">
                 <div class="d-flex justify-content-center align-items-center w-100 h-100">
-                    <img class="img-fluid rounded" src="img/IBQ-IQ/IMG4.png" alt="">
+                    <img class="img-fluid rounded" src="img/IBQ-IQ/IMG4.webp" alt="">
                 </div>
             </div>
 
@@ -431,7 +440,7 @@
 
 <!-- Residencias profesionales -->
 <div class="bg-primary pt-5">
-    <img src="img/IBQ-IQ/P48.png" class="w-full" alt="">
+    <img src="img/IBQ-IQ/P29.webp" class="w-full" alt="">
     <section class="darkSection bg-dark">
         <div class="row px-2 g-0">
             <div class="col-lg-12 col-12 py-4">
@@ -468,7 +477,7 @@
 
             <div class="col-lg-4 col-sm-6 text-center p-3">
                 <div class="area shadow-sm p-4">
-                    <img class="areaImage items-center" src="img/icon1.png" alt="">
+                    <img class="areaImage items-center" src="img/icon1.PNG" alt="">
                     <h3 class="areaTitle text-center font-bold text-xl">Proyectos</h3>
                     <p class="areaText">Contribuir a la formación integral del alumno a través de la interrelación de
                         conocimientos teóricos y aspectos prácticos de la profesión.</p>
@@ -547,7 +556,7 @@
 
         <div class="col-lg-6 col-12 p-2 shadow-sm">
             <div class="d-flex justify-content-center align-items-center w-100 h-100">
-                <img class="img-fluid rounded" src="img/IBQ-IQ/IQ16.png" alt="">
+                <img class="img-fluid rounded" src="img/IBQ-IQ/IQ16.webp" alt="">
             </div>
         </div>
 
@@ -610,7 +619,7 @@
 
             <div class="col-lg-6 col-12 p-2 shadow-sm">
                 <div class="d-flex justify-content-center align-items-center w-100 h-100">
-                    <img class="img-fluid rounded" src="img/IBQ-IQ/IQ22.png" alt="">
+                    <img class="img-fluid rounded" src="img/IBQ-IQ/IQ22.webp" alt="">
                 </div>
             </div>
 
@@ -692,45 +701,38 @@
             </div>
 
             <div class="col-lg-6 col-12 p-4">
-                <div class="d-flex justify-content-center align-items-center w-100 h-100">
-                    <div class="row g-0">
-                        <div class="col-12">
-                            <h2 class="sectionTitle text-center font-bold m-3">Requisitos para tramitar la titulación:
-                            </h2>
+                    <div class="d-flex justify-content-center align-items-center w-100 h-100">
+                        <div class="row g-0 col-12">
+                            <h2 class="sectionTitle text-center font-bold m-3">Requisitos para tramitar la titulación:</h2>
                             <div class="sectionSeparator"></div>
-                        </div>
-                        <div class="col-12" style="text-align: center;">
-                            <p class="text-dark" style="text-align: justify;">
-                                El egresado debe cumplir con:
+                            <div class="col-12" style="text-align: center;">
+                                <p style="text-align: justify;">El egresado debe cumplir con:</p>
+                                <ul class="my-3 font-bold" style="text-align: justify">
+                                    <li>La acreditación del 100% de los créditos de su plan de estudios.</li>
+                                    <li>La acreditación de un programa de lengua extranjera presentando un certificado o
+                                        constancia.*</li>
+                                    <li>Constancia de no inconveniencia para la realización del acto protocolario
+                                        de titulación integral emitida por el Departamento de Servicios Escolares o
+                                        su equivalente en los Institutos Tecnológicos Descentralizados.</li>
+                                    <li>Documento probatorio de no adeudo económico, material o equipo con
+                                        las oficinas, laboratorios y centro de información en la institución de la cual
+                                        egresó.</li>
+                                    <li>Liberación del proyecto de titulación integral emitida por él (la) Jefe(a) de
+                                        Departamento Académico.</li>
+                                    <li>Presentar acto protocolario del proyecto de titulación integral.</li>
+                                </ul>
+                            </div>
+                            <p class="text-dark text-break" style="text-align: left;">
+                                *Puede variar según el plan de estudios.<br><br>
+                                Solicita información en:<br>
+                                coor_titulacion@veracruz.tecnm.mx <br>
+                                titulacion_quimica@veracruz.tecnm.mx.
                             </p>
-                        </div>
-                        <div class="bg-light">
-                            <ul class="my-3 font-bold" style="text-align: justify">
-                                <li>La acreditación del 100% de los créditos de su plan de estudios.</li>
-                                <li>La acreditación de un programa de lengua extranjera presentando un certificado o
-                                    constancia.*</li>
-                                <li>Constancia de no inconveniencia para la realización del acto protocolario
-                                    de titulación integral emitida por el Departamento de Servicios Escolares o
-                                    su equivalente en los Institutos Tecnológicos Descentralizados.</li>
-                                <li>Documento probatorio de no adeudo económico, material o equipo con
-                                    las oficinas, laboratorios y centro de información en la institución de la cual
-                                    egresó.</li>
-                                <li>Liberación del proyecto de titulación integral emitida por él (la) Jefe(a) de
-                                    Departamento Académico.</li>
-                                <li>Presentar acto protocolario del proyecto de titulación integral.</li>
-                            </ul>
-                        </div>
-                        <p class="text-dark" style="text-align: justify;">
-                        *Puede variar según el plan de estudios. 
-                        </p>
-                        <p class="text-dark" style="text-align: left;">
-                        Solicita información en: coor_titulacion@veracruz.tecnm.mx/titulacion_quimica@veracruz.tecnm.mx.
-                        </p>
-                        <div class="justify-content-center text-center">
+                            <div class="justify-content-center text-center">
                                 <p><a class="btn-warning w-auto btn font-bold" target="_blank" href="https://tinyurl.com/3kpuhew9">Formas de titulación</a></p>
+                            </div>
                         </div>
                     </div>
-                </div>
             </div>
 
 

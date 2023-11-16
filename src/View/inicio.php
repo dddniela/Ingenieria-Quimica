@@ -1,9 +1,41 @@
+<?php
+
+$docenteImagen1 = $GLOBALS['PATH_DOCENTE'] . 'alejandroLeonHernandez.webp';
+$type = pathinfo($docenteImagen1, PATHINFO_EXTENSION);
+$docenteImagen1 = file_get_contents($docenteImagen1);
+$docenteImagen1 = 'data:image/' . $type . ';base64,' . base64_encode($docenteImagen1);
+
+$docenteImagen2 = $GLOBALS['PATH_DOCENTE'] . 'yolandaHernandezCardona.webp';
+$type = pathinfo($docenteImagen2, PATHINFO_EXTENSION);
+$docenteImagen2 = file_get_contents($docenteImagen2);
+$docenteImagen2 = 'data:image/' . $type . ';base64,' . base64_encode($docenteImagen2);
+
+$docenteImagen3 = $GLOBALS['PATH_DOCENTE'] . 'SandraCarmonaReyes.webp';
+$type = pathinfo($docenteImagen3, PATHINFO_EXTENSION);
+$docenteImagen3 = file_get_contents($docenteImagen3);
+$docenteImagen3 = 'data:image/' . $type . ';base64,' . base64_encode($docenteImagen3);
+
+$docenteImagen4 = $GLOBALS['PATH_DOCENTE'] . 'marioDiazGonzalez.webp';
+$type = pathinfo($docenteImagen4, PATHINFO_EXTENSION);
+$docenteImagen4 = file_get_contents($docenteImagen4);
+$docenteImagen4 = 'data:image/' . $type . ';base64,' . base64_encode($docenteImagen4);
+
+$docenteImagen5 = $GLOBALS['PATH_DOCENTE'] . 'manuelSusunagaMiranda.webp';
+$type = pathinfo($docenteImagen5, PATHINFO_EXTENSION);
+$docenteImagen5 = file_get_contents($docenteImagen5);
+$docenteImagen5 = 'data:image/' . $type . ';base64,' . base64_encode($docenteImagen5);
+
+$docenteImagen6 = $GLOBALS['PATH_DOCENTE'] . 'araceliRodriguezAndrade.webp';
+$type = pathinfo($docenteImagen6, PATHINFO_EXTENSION);
+$docenteImagen6 = file_get_contents($docenteImagen6);
+$docenteImagen6 = 'data:image/' . $type . ';base64,' . base64_encode($docenteImagen6);
+
+?>
 <!-- Carrusel de portada -->
 <section>
   <div id="myCarousel" class="carousel slide col-lg-12 col-sm-12" data-bs-ride="carousel">
     <div class="carousel-indicators">
-      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true"
-        aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
       <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
       <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
       <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
@@ -11,11 +43,11 @@
 
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="img/IBQ-IQ/P49.webp" class="d-block w-100 align-middle" width="100%" height="100%">
+        <img src="img/IBQ-IQ/P51.webp" class="d-block w-100 align-middle" width="100%" height="100%">
         <div class="container">
           <div class="carousel-caption d-flex flex-column">
             <h1 class="mainTitle text-center font-bold m-2 shadow-text">Ingeniería Química</h1>
-            <h2 class="mainSubtitle text-center font-bold shadow-text">Reconocimiento con acreditaciones internacionales</h1>
+            <h2 class="mainSubtitle text-center font-bold shadow-text">Cumplimiento de normas nacionales e internacionales</h1>
               <p><a class="mainButton btn font-bold d-none d-md-inline-flex" href="?option=3">Explorar</a>
               </p>
           </div>
@@ -39,17 +71,17 @@
           <div class="carousel-caption">
             <h1 class="mainTitle text-center font-bold m-2 shadow-text">Ingeniería Química</h1>
             <h2 class="mainSubtitle text-center font-bold d-none d-md-inline-flex shadow-text">Impacto positivo para la sociedad</h1>
-            <p><a class="mainButton btn font-bold d-none d-md-inline-flex" href="?option=5">Explorar</a></p>
+              <p><a class="mainButton btn font-bold d-none d-md-inline-flex" href="?option=5">Explorar</a></p>
           </div>
         </div>
       </div>
 
       <div class="carousel-item">
-        <img src="img/IBQ-IQ/P51.webp" class="d-block w-100 align-middle" width="100%" height="100%">
+        <img src="img/IBQ-IQ/P49.webp" class="d-block w-100 align-middle" width="100%" height="100%">
         <div class="container">
           <div class="carousel-caption">
             <h1 class="mainTitle text-center font-bold m-2 shadow-text">Ingeniería Química</h1>
-            <h2 class="mainSubtitle text-center font-bold shadow-text">Cumplimiento de normas nacionales e internacionales</h1>
+            <h2 class="mainSubtitle text-center font-bold shadow-text">Reconocimiento con acreditaciones internacionales</h1>
               <p><a class="mainButton btn font-bold d-none d-md-inline-flex" href="?option=1">Explorar</a></p>
           </div>
         </div>
@@ -86,12 +118,12 @@
           </div>
           <div class="col-12" style="text-align: center;">
             <p style="text-align: justify;">
-            La Ingeniería Química permite al estudiante desarrollar habilidades técnicas e interpersonales, 
-            trabajar en diversos campos como materiales, alimentación, gestión ambiental, petroquímica y 
-            farmacéutica, contribuir al desarrollo sostenible mediante el control y prevención de la 
-            contaminación, y tener proyección internacional. Además, ofrece oportunidades laborales a 
-            corto plazo en áreas como procesos, investigación, control de calidad, seguridad ambiental, 
-            comercialización, administración y consultoría.
+              La Ingeniería Química permite al estudiante desarrollar habilidades técnicas e interpersonales,
+              trabajar en diversos campos como materiales, alimentación, gestión ambiental, petroquímica y
+              farmacéutica, contribuir al desarrollo sostenible mediante el control y prevención de la
+              contaminación, y tener proyección internacional. Además, ofrece oportunidades laborales a
+              corto plazo en áreas como procesos, investigación, control de calidad, seguridad ambiental,
+              comercialización, administración y consultoría.
             </p>
             <a class="btn btn-warning font-bold" href="?option=3" role="button">¡Saber más!</a>
           </div>
@@ -116,7 +148,7 @@
         </a>
         <h3 class="areaTitle text-center font-bold text-xl">Diseño y Optimización de Procesos Industriales</h3>
         <p class="areaText">
-        Diseña, desarrolla y optimiza procesos en industrias químicas y de servicios.
+          Diseña, desarrolla y optimiza procesos en industrias químicas y de servicios.
         </p>
       </div>
     </div>
@@ -128,7 +160,7 @@
         </a>
         <h3 class="areaTitle text-center font-bold text-xl">Simulación de Procesos</h3>
         <p class="areaText">
-        Simula procesos químicos mediante el uso de software comercial.
+          Simula procesos químicos mediante el uso de software comercial.
         </p>
       </div>
     </div>
@@ -140,8 +172,8 @@
         </a>
         <h3 class="areaTitle text-center font-bold text-xl">Sustentabilidad y Sostenibilidad.</h3>
         <p class="areaText">
-        Contribuye al cumplimiento de los objetivos del desarrollo sostenible, 
-        con el desarrollo de procesos sostenibles en equilibrio social, ambiental y económico.
+          Contribuye al cumplimiento de los objetivos del desarrollo sostenible,
+          con el desarrollo de procesos sostenibles en equilibrio social, ambiental y económico.
         </p>
       </div>
     </div>
@@ -153,8 +185,8 @@
         </a>
         <h3 class="areaTitle text-center font-bold text-xl">Control de Procesos</h3>
         <p class="areaText">
-        Selecciona y aplica la instrumentación para el control de procesos químicos a partir de 
-        los requerimientos óptimos de operación.
+          Selecciona y aplica la instrumentación para el control de procesos químicos a partir de
+          los requerimientos óptimos de operación.
         </p>
       </div>
     </div>
@@ -166,8 +198,8 @@
         </a>
         <h3 class="areaTitle text-center font-bold text-xl">Salud y Riesgo en los Procesos</h3>
         <p class="areaText">
-        Realiza análisis de riesgo con el fin de definir las acciones de seguridad funcional y 
-        establecer programas de prevención y control de incidentes en plantas de procesos. 
+          Realiza análisis de riesgo con el fin de definir las acciones de seguridad funcional y
+          establecer programas de prevención y control de incidentes en plantas de procesos.
         </p>
       </div>
     </div>
@@ -179,9 +211,9 @@
         </a>
         <h3 class="areaTitle text-center font-bold text-xl">Formulación y Evaluación de Proyectos</h3>
         <p class="areaText">
-        Obtendrás conocimientos en seguridad industrial y medio ambiente, incluyendo la gestión de riesgos, 
-        el manejo adecuado de productos químicos, el cumplimiento de normas de seguridad y las consideraciones 
-        ambientales en la industria química.
+          Obtendrás conocimientos en seguridad industrial y medio ambiente, incluyendo la gestión de riesgos,
+          el manejo adecuado de productos químicos, el cumplimiento de normas de seguridad y las consideraciones
+          ambientales en la industria química.
         </p>
       </div>
     </div>
@@ -193,7 +225,7 @@
         </a>
         <h3 class="areaTitle text-center font-bold text-xl">Análisis Químico </h3>
         <p class="areaText">
-        Aprende técnicas de análisis comúnmente utilizados para el control de procesos químicos.
+          Aprende técnicas de análisis comúnmente utilizados para el control de procesos químicos.
         </p>
       </div>
     </div>
@@ -216,9 +248,9 @@
           </div>
           <div class="col-12 px-4" style="text-align: center;">
             <p class="text-light" style="text-align: justify;">
-            El departamento de Ingeniería Química-Bioquímica cuenta con diversos laboratorios en donde los estudiantes 
-            planean y desarrollan experimentos para la obtención de datos que permiten la comprobación de los
-            conceptos teóricos estudiados en los cursos.
+              El departamento de Ingeniería Química-Bioquímica cuenta con diversos laboratorios en donde los estudiantes
+              planean y desarrollan experimentos para la obtención de datos que permiten la comprobación de los
+              conceptos teóricos estudiados en los cursos.
             </p>
             <a class="btn btn-warning font-bold" href="?option=4" role="button">¡Explorar!</a>
           </div>
@@ -244,23 +276,18 @@
       <div class="galleryContainer bg-light">
         <div class="row g-0">
           <div class="col-4 px-2">
-            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes/alejandroLeonHernandez.webp"
-              alt="">
-            <img class="img-fluid w-100 shadow-1-strong rounded m-2"
-              src="img/Docentes/yolandaHernandezCardona.webp" alt="">
+            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src='<?php echo $docenteImagen1; ?>' alt="">
+            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src='<?php echo $docenteImagen2; ?>' alt="">
           </div>
 
           <div class="col-4 px-2">
-            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes/SandraCarmonaReyes.webp"
-              alt="">
-            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes/marioDiazGonzalez.webp" alt="">
+            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src='<?php echo $docenteImagen3; ?>' alt="">
+            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src='<?php echo $docenteImagen4; ?>' alt="">
           </div>
 
           <div class="col-4 px-2">
-            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes/manuelSusunagaMiranda.webp"
-              alt="">
-            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes/araceliRodriguezAndrade.webp"
-              alt="">
+            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src='<?php echo $docenteImagen5; ?>' alt="">
+            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src='<?php echo $docenteImagen6; ?>' alt="">
           </div>
 
         </div>
@@ -276,10 +303,10 @@
           </div>
           <div class="col-12" style="text-align: center;">
             <p style="text-align: justify;">
-            Contamos con docentes de diversas disciplinas que son impulsores de cambio, 
-            con estudios de posgrado y una amplia experiencia en el quehacer docente, quienes 
-            demuestran diariamente su compromiso en las aulas. Son profesionales que tienen la facultad de 
-            transformar vidas, de impactar a las futuras generaciones de estudiantes.
+              Contamos con docentes de diversas disciplinas que son impulsores de cambio,
+              con estudios de posgrado y una amplia experiencia en el quehacer docente, quienes
+              demuestran diariamente su compromiso en las aulas. Son profesionales que tienen la facultad de
+              transformar vidas, de impactar a las futuras generaciones de estudiantes.
             </p>
             <a class="btn btn-warning font-bold" href="?option=2" role="button">¡Conocer docentes!</a>
           </div>
@@ -300,7 +327,7 @@
 
     <div class="col-lg-4 col-sm-6 text-center p-3">
       <div class="area shadow-sm p-4 rounded-3">
-        <a href="http://gestion.itver.edu.mx/servicio-social/" target="_blank" >
+        <a href="http://gestion.itver.edu.mx/servicio-social/" target="_blank">
           <img class="img-fluid w-100 shadow-1-strong rounded mb-4 p-1" src="img/gestionVinculacion2.webp" alt="">
         </a>
         <h3 class="areaTitle text-center font-bold text-xl">Servicio social</h3>
@@ -309,7 +336,7 @@
 
     <div class="col-lg-4 col-sm-6 text-center p-3">
       <div class="area shadow-sm p-4 rounded-3">
-        <a href="http://www.veracruz.tecnm.mx/" target="_blank" >
+        <a href="http://www.veracruz.tecnm.mx/" target="_blank">
           <img class="img-fluid w-100 shadow-1-strong rounded mb-4  p-1" src="img/Venus.webp" alt="">
         </a>
         <h3 class="areaTitle text-center font-bold text-xl">TECNM Veracruz</h3>
@@ -325,7 +352,7 @@
       </div>
     </div>
 
-    
+
 
   </div>
 </section>
@@ -349,26 +376,22 @@
       <div class="d-flex flex-row justify-content-center">
         <a class="mx-2" href="https://www.tecnm.mx/" target="_blank" style="text-decoration: none;">
           <div class="d-flex flex-column justify-content-center">
-            <img class="img-fluid shadow-1-strong rounded mb-4 p-1" style="height: 40px"
-              src="img/iconos/tecnm-logo.PNG" alt="">
+            <img class="img-fluid shadow-1-strong rounded mb-4 p-1" style="height: 40px" src="img/iconos/tecnm-logo.PNG" alt="">
           </div>
         </a>
         <a class="mx-2" href="https://www.facebook.com/TecNMmx" target="_blank" style="text-decoration: none;">
           <div class="d-flex flex-row justify-content-center">
-            <img class="img-fluid shadow-1-strong rounded mb-4 p-1" style="height: 40px" src="img/iconos/facebook.PNG"
-              alt="">
+            <img class="img-fluid shadow-1-strong rounded mb-4 p-1" style="height: 40px" src="img/iconos/facebook.PNG" alt="">
           </div>
         </a>
         <a class="mx-2" href="https://x.com/TecNM_MX" target="_blank" style="text-decoration: none;">
           <div class="d-flex flex-row justify-content-center">
-            <img class="img-fluid shadow-1-strong rounded mb-4 p-1" style="height: 40px" src="img/iconos/twitterX.png"
-              alt="">
+            <img class="img-fluid shadow-1-strong rounded mb-4 p-1" style="height: 40px" src="img/iconos/twitterX.png" alt="">
           </div>
         </a>
         <a class="mx-2" href="https://www.youtube.com/user/SNESTMX" target="_blank" style="text-decoration: none;">
           <div class="d-flex flex-row justify-content-center">
-            <img class="img-fluid shadow-1-strong rounded mb-4 p-1" style="height: 40px" src="img/iconos/youtube.PNG"
-              alt="">
+            <img class="img-fluid shadow-1-strong rounded mb-4 p-1" style="height: 40px" src="img/iconos/youtube.PNG" alt="">
           </div>
         </a>
       </div>
@@ -378,49 +401,25 @@
       <div class="d-flex flex-row justify-content-center">
         <a class="mx-2" href="https://www.veracruz.tecnm.mx/index.php" target="_blank" style="text-decoration: none;">
           <div class="d-flex flex-row justify-content-center">
-            <img class="img-fluid shadow-1-strong rounded mb-4 p-1" style="height: 40px"
-              src="img/iconos/itver-logo.PNG" alt="">
+            <img class="img-fluid shadow-1-strong rounded mb-4 p-1" style="height: 40px" src="img/iconos/itver-logo.PNG" alt="">
           </div>
         </a>
         <a class="mx-2" href="https://www.facebook.com/ITVeracruz" target="_blank" style="text-decoration: none;">
           <div class="d-flex flex-row justify-content-center">
-            <img class="img-fluid shadow-1-strong rounded mb-4 p-1" style="height: 40px" src="img/iconos/facebook.PNG"
-              alt="">
+            <img class="img-fluid shadow-1-strong rounded mb-4 p-1" style="height: 40px" src="img/iconos/facebook.PNG" alt="">
           </div>
         </a>
-        <a class="mx-2" href="https://x.com/tvitver" target="_blank" style="text-decoration: none;">
+        <a class="mx-2" href="https://twitter.com/TecNM_Veracruz" target="_blank" style="text-decoration: none;">
           <div class="d-flex flex-row justify-content-center">
-            <img class="img-fluid shadow-1-strong rounded mb-4 p-1" style="height: 40px" src="img/iconos/twitterX.png"
-              alt="">
+            <img class="img-fluid shadow-1-strong rounded mb-4 p-1" style="height: 40px" src="img/iconos/twitterX.png" alt="">
           </div>
         </a>
-        <a class="mx-2" href="https://www.youtube.com/channel/UCVBkOP_rj5ulvlriG88jTzA" target="_blank"
-          style="text-decoration: none;">
+        <a class="mx-2" href="https://www.youtube.com/channel/UCVBkOP_rj5ulvlriG88jTzA" target="_blank" style="text-decoration: none;">
           <div class="d-flex flex-row justify-content-center">
-            <img class="img-fluid shadow-1-strong rounded mb-4 p-1" style="height: 40px" src="img/iconos/youtube.PNG"
-              alt="">
+            <img class="img-fluid shadow-1-strong rounded mb-4 p-1" style="height: 40px" src="img/iconos/youtube.PNG" alt="">
           </div>
         </a>
       </div>
-    </div>
-  </div>
-  <div class="row g-0">
-    <h4 class="sectionTitle  text-center font-bold">Departamento de Ingeniería Química - Bioquímica</h4>
-    <div class="d-flex flex-row justify-content-center">
-      <a class="mx-2" href="https://www.facebook.com/groups/itveringiq/" target="_blank"
-        style="text-decoration: none;">
-        <div class="d-flex flex-row justify-content-center">
-          <img class="img-fluid shadow-1-strong rounded mb-4 p-1" style="width: 40px" src="img/iconos/facebook.PNG"
-            alt="">
-        </div>
-      </a>
-      <a class="mx-2" href="https://www.youtube.com/channel/UC3-FcFXHHyqRLVAxbo3AM9A" target="_blank"
-          style="text-decoration: none;">
-          <div class="d-flex flex-row justify-content-center">
-            <img class="img-fluid shadow-1-strong rounded mb-4 p-1" style="height: 40px" src="img/iconos/youtube.PNG"
-              alt="">
-          </div>
-        </a>
     </div>
   </div>
 </section>
