@@ -196,4 +196,3 @@ class Comunidad
         return $tabla;
     }
 }
-}
