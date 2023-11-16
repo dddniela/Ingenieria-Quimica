@@ -90,33 +90,33 @@ class Comunidad
         $comunidades = $this->getComunidades();
         $tabla = "";
 
-        if ($ResultSet->num_rows > 0) {
-            while ($row = $ResultSet->fetch_assoc()) {
-                $comunidadId = $row['comunidadId'];
-                $nombre = $row['nombre'];
-                $logo = $row['logo'];
-                $quienesSomos = $row['quienesSomos'];
-                $queHacemos = $row['queHacemos'];
-                $fotosComunidad = $row['fotosComunidad'];
-                $array = explode(',', $fotosComunidad);
-                $num = count($array);
-                $tabla .=  "<div class='col-lg-4 col-sm-6 text-center p-3'>
-                <div class='area shadow-sm p-4 rounded-3' style='margin: 10px;'>
-                    <!-- Aplica márgenes de 10px alrededor de la tarjeta -->
-                    <div class='d-flex flex-row justify-content-center my-1'>
-                        <img class='rounded-circle p-1 bg-primary imagen-docentes' src='img/Comunidades/$logo' alt=''>
-                    </div>
-                    <div class='d-flex flex-row justify-content-center'>
-                        <h3 class='tituloAreaDocente text-center font-bold' style='font-size: 1.5rem;'>$nombre</h3>
-                        <!-- Modifica el tamaño de la fuente con el estilo 'font-size' -->
-                    </div>
-                    <div class='d-flex flex-row justify-content-center mt-5'>
-            <button type='button' class='btn btn-warning font-bold' data-bs-toggle='modal' data-bs-target='#ModalComunidad" . $comunidadId . "'>Ver más</button>
-        </div>
-
-                </div>
-            </div>";
+        foreach ($comunidades['data'] as $comunidad) {
+            $comunidadId = $comunidad['comunidadId'];
+            $nombre = $comunidad['nombre'];
+            $logo = $comunidad['logo'];
+            $quienesSomos = $comunidad['quienesSomos'];
+            $queHacemos = $comunidad['queHacemos'];
+            $fotosComunidad = $comunidad['fotosComunidad'];
+            $array = explode(',', $fotosComunidad);
+            $num = count($array);
             
+            $type = pathinfo($comunidad['logo'], PATHINFO_EXTENSION);
+            $logo = file_get_contents($GLOBALS['PATH_COMUNIDAD'] . $comunidad['logo']);
+            $logo = 'data:image/' . $type . ';base64,' . base64_encode($logo);
+
+            $tabla .=  "<div class='col-lg-4 col-sm-6 text-center p-3'>
+                                <div class='area shadow-sm p-4 rounded-3'>
+                                    <div class='d-flex flex-row justify-content-center my-1'>
+                                        <img class='rounded-circle p-1 bg-primary imagen-docentes' src='$logo' alt=''>
+                                    </div>
+                                    <div class='d-flex flex-row justify-content-center'>
+                                        <h3 class='tituloAreaDocente text-center font-bold text-xl'>$nombre</h3>
+                                    </div>
+                                    <div class='d-flex flex-row justify-content-center'>
+                                        <button type='button' class='btn btn-warning font-bold' data-bs-toggle='modal' data-bs-target='#ModalComunidad" . $comunidadId . "'>Ver mas</button>
+                                    </div>
+                                </div>
+                            </div>";
 
             $tabla .=   "<div class='modal fade' id='ModalComunidad$comunidadId' tabindex='-1' aria-labelledby='exampleModalLabel' aria-hidden='true'>
                                 <div class='modal-dialog modal-lg'>
@@ -173,7 +173,7 @@ class Comunidad
                     $foto2 = file_get_contents($GLOBALS['PATH_COMUNIDAD'] . $array[1]);
                     $foto2 = 'data:image/' . $type . ';base64,' . base64_encode($foto2);
                 }
-
+                
                 $tabla .=  "<div class='d-flex flex-row justify-content-start m-2' style='text-align: justify;'>
                                                 <div class='col-12'>
                                                     <div class='row'>
@@ -195,5 +195,4 @@ class Comunidad
 
         return $tabla;
     }
-}
 }
