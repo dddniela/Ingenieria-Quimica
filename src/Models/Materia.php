@@ -26,58 +26,62 @@ class Materia
         $ruta_img = "";
         switch ($Area) {
             case 'Programacion':
-                $ruta_img = 'img/iconos/programacion2.png';
+                $ruta_img = 'programacion2.png';
                 break;
             case 'Etica':
-                $ruta_img = 'img/iconos/etica.png';
+                $ruta_img = 'etica.png';
                 break;
             case 'Quimica':
-                $ruta_img = 'img/iconos/quimica.png';
+                $ruta_img = 'quimica.png';
                 break;
             case 'Mecanica':
-                $ruta_img = 'img/iconos/mecanica.png';
+                $ruta_img = 'mecanica.png';
                 break;
             case 'Matematicas':
-                $ruta_img = 'img/iconos/matematicas.png';
+                $ruta_img = 'matematicas.png';
                 break;
             case 'Dacp':
-                $ruta_img = 'img/iconos/dapc.png';
+                $ruta_img = 'dapc.png';
                 break;
             case 'Fisica':
-                $ruta_img = 'img/iconos/fisica.png';
+                $ruta_img = 'fisica.png';
                 break;
             case 'Procesos':
-                $ruta_img = 'img/iconos/procesos.png';
+                $ruta_img = 'procesos.png';
                 break;
             case 'Administracion':
-                $ruta_img = 'img/iconos/administracion.png';
+                $ruta_img = 'administracion.png';
                 break;
             case 'Ambiente':
-                $ruta_img = 'img/iconos/ambiente.png';
+                $ruta_img = 'ambiente.png';
                 break;
             case 'Investigacion':
-                $ruta_img = 'img/iconos/investigacion.png';
+                $ruta_img = 'investigacion.png';
                 break;
             case 'Proyectos':
-                $ruta_img = 'img/iconos/proyectos.png';
+                $ruta_img = 'proyectos.png';
                 break;
             case 'Seguridad':
-                $ruta_img = 'img/iconos/seguridad.png';
+                $ruta_img = 'seguridad.png';
                 break;
             case 'Costos':
-                $ruta_img = 'img/iconos/costos.png';
+                $ruta_img = 'costos.png';
                 break;
             case 'Optimizacion':
-                $ruta_img = 'img/iconos/optimizacion.png';
+                $ruta_img = 'optimizacion.png';
                 break;
             case 'Simulacion':
-                $ruta_img = 'img/iconos/simulacion.png';
+                $ruta_img = 'simulacion.png';
                 break;
             default:
-                $ruta_img = 'img/iconos/ingenieria.png';
+                $ruta_img = 'ingenieria.png';
                 break;
         }
-        return $ruta_img;
+        
+        $type = pathinfo($ruta_img, PATHINFO_EXTENSION);
+        $urlImagen = file_get_contents($GLOBALS['PATH_ICONO'] . $ruta_img);
+        $urlImagen = 'data:image/' . $type . ';base64,' . base64_encode($urlImagen);
+        return $urlImagen;
     }
 
 
